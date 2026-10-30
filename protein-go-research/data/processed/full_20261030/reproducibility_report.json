@@ -1,0 +1,26 @@
+{
+  "artifact_comparisons": {
+    "dataset_metadata.json": {
+      "first_sha256": "ff323129c442f8d95b3183aaadb8fccd03460781a49a36f7e612601fb07c9911",
+      "identical": true,
+      "second_sha256": "ff323129c442f8d95b3183aaadb8fccd03460781a49a36f7e612601fb07c9911"
+    },
+    "protein_go_dataset.csv": {
+      "first_sha256": "a1b62f7bcb6524f53fb93cef4efc48744e96ed7a3bc33c71318473f0913bf567",
+      "identical": true,
+      "second_sha256": "a1b62f7bcb6524f53fb93cef4efc48744e96ed7a3bc33c71318473f0913bf567"
+    },
+    "quality_report.json": {
+      "first_sha256": "bcef21d7aabc6cd698b27b558e6fa19a072a4b8437344adf4071ef45bed4a8de",
+      "identical": true,
+      "second_sha256": "bcef21d7aabc6cd698b27b558e6fa19a072a4b8437344adf4071ef45bed4a8de"
+    }
+  },
+  "csv_readback_row_count": 20431,
+  "csv_readback_validation_passed": true,
+  "legacy_sample_response_hashes_unchanged": true,
+  "passed": true,
+  "raw_inventory_and_collection_validation_hashes_verified": true,
+  "raw_inventory_files_verified": 93,
+  "regression_tests_passed": 9
+}

@@ -1,0 +1,157 @@
+mkdir -p failed for path C:\Users\Administrator\AppData\Local\matplotlib: [WinError 5] �׼����� �źεǾ����ϴ�: 'C:\\Users\\Administrator\\AppData\\Local\\matplotlib'
+Matplotlib created a temporary cache directory at C:\Users\ADMINI~1\AppData\Local\Temp\matplotlib-i5zhn_c7 because there was an issue with the default path (C:\Users\Administrator\AppData\Local\matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+primary_and_exploratory: bootstrap 16/2000
+primary_and_exploratory: bootstrap 416/2000
+primary_and_exploratory: bootstrap 816/2000
+primary_and_exploratory: bootstrap 1216/2000
+primary_and_exploratory: bootstrap 1616/2000
+primary_and_exploratory: bootstrap 2000/2000
+sensitivity_nozero_go: bootstrap 16/2000
+sensitivity_nozero_go: bootstrap 416/2000
+sensitivity_nozero_go: bootstrap 816/2000
+sensitivity_nozero_go: bootstrap 1216/2000
+sensitivity_nozero_go: bootstrap 1616/2000
+sensitivity_nozero_go: bootstrap 2000/2000
+sensitivity_one_accession_per_single_gene: bootstrap 16/2000
+sensitivity_one_accession_per_single_gene: bootstrap 416/2000
+sensitivity_one_accession_per_single_gene: bootstrap 816/2000
+sensitivity_one_accession_per_single_gene: bootstrap 1216/2000
+sensitivity_one_accession_per_single_gene: bootstrap 1616/2000
+sensitivity_one_accession_per_single_gene: bootstrap 2000/2000
+{
+  "correlations": [
+    {
+      "analysis": "primary_and_exploratory",
+      "outcome": "go_total_count",
+      "n": 20431,
+      "rho": 0.2704579700684934,
+      "p_value_two_sided": 0.0,
+      "p_value_text": "2.210109e-339",
+      "log10_p_value": -338.6555863255773,
+      "p_float_underflow": true,
+      "ci95_low": 0.25697507515798346,
+      "ci95_high": 0.2839721189026921,
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 20261030,
+      "seed_spawn_key": "(0,)",
+      "method": "SciPy spearmanr; average tied ranks; two-sided asymptotic t p-value",
+      "ci_method": "paired row bootstrap; re-rank each resample; percentile 2.5/97.5; linear quantiles",
+      "test_role": "primary",
+      "holm_p_value": "",
+      "holm_p_value_text": ""
+    },
+    {
+      "analysis": "primary_and_exploratory",
+      "outcome": "go_bp_count",
+      "n": 20431,
+      "rho": 0.2279689389474565,
+      "p_value_two_sided": 4.349639002105282e-239,
+      "p_value_text": "4.349639e-239",
+      "log10_p_value": -238.36154678578086,
+      "p_float_underflow": false,
+      "ci95_low": 0.21506468922081498,
+      "ci95_high": 0.24158036620067194,
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 20261030,
+      "seed_spawn_key": "(0,)",
+      "method": "SciPy spearmanr; average tied ranks; two-sided asymptotic t p-value",
+      "ci_method": "paired row bootstrap; re-rank each resample; percentile 2.5/97.5; linear quantiles",
+      "test_role": "exploratory_auxiliary",
+      "holm_p_value": 4.349639002104955e-239,
+      "holm_p_value_text": "4.349639e-239"
+    },
+    {
+      "analysis": "primary_and_exploratory",
+      "outcome": "go_mf_count",
+      "n": 20431,
+      "rho": 0.25915070997240647,
+      "p_value_two_sided": 8.5610670969927e-311,
+      "p_value_text": "8.561067e-311",
+      "log10_p_value": -310.0674720991718,
+      "p_float_underflow": false,
+      "ci95_low": 0.24551033732930816,
+      "ci95_high": 0.27200144729756226,
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 20261030,
+      "seed_spawn_key": "(0,)",
+      "method": "SciPy spearmanr; average tied ranks; two-sided asymptotic t p-value",
+      "ci_method": "paired row bootstrap; re-rank each resample; percentile 2.5/97.5; linear quantiles",
+      "test_role": "exploratory_auxiliary",
+      "holm_p_value": 2.56832012909845e-310,
+      "holm_p_value_text": "2.568320e-310"
+    },
+    {
+      "analysis": "primary_and_exploratory",
+      "outcome": "go_cc_count",
+      "n": 20431,
+      "rho": 0.24642032113581544,
+      "p_value_two_sided": 2.857929545385809e-280,
+      "p_value_text": "2.857930e-280",
+      "log10_p_value": -279.5439484817828,
+      "p_float_underflow": false,
+      "ci95_low": 0.23298048056717038,
+      "ci95_high": 0.25960434767601487,
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 20261030,
+      "seed_spawn_key": "(0,)",
+      "method": "SciPy spearmanr; average tied ranks; two-sided asymptotic t p-value",
+      "ci_method": "paired row bootstrap; re-rank each resample; percentile 2.5/97.5; linear quantiles",
+      "test_role": "exploratory_auxiliary",
+      "holm_p_value": 5.715859090769825e-280,
+      "holm_p_value_text": "5.715859e-280"
+    }
+  ],
+  "sensitivity": [
+    {
+      "analysis": "sensitivity_nozero_go",
+      "outcome": "go_total_count",
+      "n": 19375,
+      "rho": 0.23311079545325067,
+      "p_value_two_sided": 2.2120239213587789e-237,
+      "p_value_text": "2.212024e-237",
+      "log10_p_value": -236.65521018077376,
+      "p_float_underflow": false,
+      "ci95_low": 0.21990314031196737,
+      "ci95_high": 0.24730076753627775,
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 20261030,
+      "seed_spawn_key": "(1,)",
+      "method": "SciPy spearmanr; average tied ranks; two-sided asymptotic t p-value",
+      "ci_method": "paired row bootstrap; re-rank each resample; percentile 2.5/97.5; linear quantiles",
+      "baseline_rho": 0.2704579700684934,
+      "delta_rho_from_baseline": -0.037347174615242756,
+      "excluded_from_baseline_n": 1056
+    },
+    {
+      "analysis": "sensitivity_one_accession_per_single_gene",
+      "outcome": "go_total_count",
+      "n": 19031,
+      "rho": 0.20132928681391218,
+      "p_value_two_sided": 3.023725887638128e-173,
+      "p_value_text": "3.023726e-173",
+      "log10_p_value": -172.5194575818517,
+      "p_float_underflow": false,
+      "ci95_low": 0.1878711602252244,
+      "ci95_high": 0.21545015132647147,
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 20261030,
+      "seed_spawn_key": "(2,)",
+      "method": "SciPy spearmanr; average tied ranks; two-sided asymptotic t p-value",
+      "ci_method": "paired row bootstrap; re-rank each resample; percentile 2.5/97.5; linear quantiles",
+      "baseline_rho": 0.2704579700684934,
+      "delta_rho_from_baseline": -0.06912868325458124,
+      "excluded_from_baseline_n": 1400
+    }
+  ],
+  "selection": {
+    "baseline_n": 20431,
+    "exclude_zero_go_n": 1056,
+    "nonzero_go_final_n": 19375,
+    "gene_missing_excluded_n": 1277,
+    "gene_multiple_excluded_n": 99,
+    "single_gene_eligible_n": 19055,
+    "single_gene_duplicate_accessions_excluded_n": 24,
+    "gene_sensitivity_final_n": 19031,
+    "gene_rule": "Only exactly one unique Gene ID; accession ascending first per Gene ID; deterministic reduction, not biological representative selection"
+  }
+}

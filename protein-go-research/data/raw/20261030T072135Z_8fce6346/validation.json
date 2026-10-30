@@ -1,0 +1,865 @@
+{
+  "passed": true,
+  "issues": [],
+  "entry_count": 10,
+  "tsv_columns": [
+    "Entry",
+    "Protein names",
+    "Gene Names (primary)",
+    "GeneID",
+    "Length",
+    "Gene Ontology (biological process)",
+    "Gene Ontology (molecular function)",
+    "Gene Ontology (cellular component)",
+    "Gene Ontology IDs",
+    "Organism (ID)",
+    "Reviewed"
+  ],
+  "field_to_column": {
+    "accession": "Entry",
+    "protein_name": "Protein names",
+    "gene_primary": "Gene Names (primary)",
+    "xref_geneid": "GeneID",
+    "length": "Length",
+    "go_p": "Gene Ontology (biological process)",
+    "go_f": "Gene Ontology (molecular function)",
+    "go_c": "Gene Ontology (cellular component)",
+    "go_id": "Gene Ontology IDs",
+    "organism_id": "Organism (ID)",
+    "reviewed": "Reviewed"
+  },
+  "official_field_labels": {
+    "accession": "Entry",
+    "protein_name": "Protein names",
+    "gene_primary": "Gene Names (primary)",
+    "xref_geneid": "GeneID",
+    "length": "Length",
+    "go_p": "Gene Ontology (biological process)",
+    "go_f": "Gene Ontology (molecular function)",
+    "go_c": "Gene Ontology (cellular component)",
+    "go_id": "Gene Ontology IDs",
+    "organism_id": "Organism (ID)",
+    "reviewed": "Reviewed"
+  },
+  "tsv_cell_python_types": {
+    "Entry": [
+      "str"
+    ],
+    "Protein names": [
+      "str"
+    ],
+    "Gene Names (primary)": [
+      "str"
+    ],
+    "GeneID": [
+      "str"
+    ],
+    "Length": [
+      "str"
+    ],
+    "Gene Ontology (biological process)": [
+      "str"
+    ],
+    "Gene Ontology (molecular function)": [
+      "str"
+    ],
+    "Gene Ontology (cellular component)": [
+      "str"
+    ],
+    "Gene Ontology IDs": [
+      "str"
+    ],
+    "Organism (ID)": [
+      "str"
+    ],
+    "Reviewed": [
+      "str"
+    ]
+  },
+  "json_top_level_types": {
+    "results": "list"
+  },
+  "json_entry_observed_types": {
+    "features": [
+      "list"
+    ],
+    "sequence": [
+      "dict"
+    ],
+    "keywords": [
+      "list"
+    ],
+    "extraAttributes": [
+      "dict"
+    ],
+    "primaryAccession": [
+      "str"
+    ],
+    "annotationScore": [
+      "float"
+    ],
+    "geneLocations": [
+      "list"
+    ],
+    "entryType": [
+      "str"
+    ],
+    "proteinDescription": [
+      "dict"
+    ],
+    "entryAudit": [
+      "dict"
+    ],
+    "references": [
+      "list"
+    ],
+    "proteinExistence": [
+      "str"
+    ],
+    "secondaryAccessions": [
+      "list"
+    ],
+    "uniProtKBCrossReferences": [
+      "list"
+    ],
+    "organism": [
+      "dict"
+    ],
+    "comments": [
+      "list"
+    ],
+    "uniProtkbId": [
+      "str"
+    ],
+    "genes": [
+      "list"
+    ]
+  },
+  "json_length_types": [
+    "int"
+  ],
+  "sample_tsv_GO_cells": {
+    "go_id": "GO:0001649; GO:0003677; GO:0005576; GO:0005634; GO:0005739; GO:0006357; GO:0032147; GO:0033687; GO:0043610; GO:0048630; GO:0071902; GO:0072522; GO:0140297; GO:2001145",
+    "go_p": "activation of protein kinase activity [GO:0032147]; negative regulation of phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity [GO:2001145]; osteoblast differentiation [GO:0001649]; osteoblast proliferation [GO:0033687]; positive regulation of protein serine/threonine kinase activity [GO:0071902]; purine-containing compound biosynthetic process [GO:0072522]; regulation of carbohydrate utilization [GO:0043610]; regulation of transcription by RNA polymerase II [GO:0006357]; skeletal muscle tissue growth [GO:0048630]",
+    "go_f": "DNA binding [GO:0003677]; DNA-binding transcription factor binding [GO:0140297]",
+    "go_c": "extracellular region [GO:0005576]; mitochondrion [GO:0005739]; nucleus [GO:0005634]"
+  },
+  "sample_json_GO_reference": {
+    "database": "GO",
+    "id": "GO:0005576",
+    "properties": [
+      {
+        "key": "GoTerm",
+        "value": "C:extracellular region"
+      },
+      {
+        "key": "GoEvidenceType",
+        "value": "IDA:UniProtKB"
+      }
+    ],
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000314",
+        "source": "PubMed",
+        "id": "25738459"
+      }
+    ]
+  },
+  "GoEvidenceType_counts": {
+    "IDA:UniProtKB": 30,
+    "IPI:UniProtKB": 2,
+    "IBA:GO_Central": 10,
+    "IEA:UniProtKB-SubCell": 4,
+    "IEA:InterPro": 5,
+    "ISS:UniProtKB": 23,
+    "IMP:UniProtKB": 6,
+    "TAS:Reactome": 2,
+    "IEA:Ensembl": 11,
+    "NAS:ComplexPortal": 4,
+    "EXP:UniProtKB": 2,
+    "IEA:UniProtKB-UniRule": 1
+  },
+  "GO_ECO_code_counts": {
+    "ECO:0000314": 33,
+    "ECO:0000353": 2,
+    "ECO:0000315": 6,
+    "ECO:0000303": 4,
+    "ECO:0000269": 4
+  },
+  "shared_gene_ids_in_sample": {},
+  "entries": [
+    {
+      "accession": "A0A0C5B5G6",
+      "protein_names_tsv": "Mitochondrial-derived peptide MOTS-c (Mitochondrial open reading frame of the 12S rRNA-c)",
+      "primary_gene_names": [
+        "MT-RNR1"
+      ],
+      "gene_ids": [],
+      "length_aa": 16,
+      "go_unique_count": 14,
+      "go_unique_by_category": {
+        "BP": 9,
+        "MF": 2,
+        "CC": 3
+      },
+      "json_go_duplicate_ids": {},
+      "tsv_go": {
+        "go_id": {
+          "tokens": 14,
+          "ids": [
+            "GO:0001649",
+            "GO:0003677",
+            "GO:0005576",
+            "GO:0005634",
+            "GO:0005739",
+            "GO:0006357",
+            "GO:0032147",
+            "GO:0033687",
+            "GO:0043610",
+            "GO:0048630",
+            "GO:0071902",
+            "GO:0072522",
+            "GO:0140297",
+            "GO:2001145"
+          ],
+          "duplicates": {}
+        },
+        "go_p": {
+          "tokens": 9,
+          "ids": [
+            "GO:0032147",
+            "GO:2001145",
+            "GO:0001649",
+            "GO:0033687",
+            "GO:0071902",
+            "GO:0072522",
+            "GO:0043610",
+            "GO:0006357",
+            "GO:0048630"
+          ],
+          "duplicates": {}
+        },
+        "go_f": {
+          "tokens": 2,
+          "ids": [
+            "GO:0003677",
+            "GO:0140297"
+          ],
+          "duplicates": {}
+        },
+        "go_c": {
+          "tokens": 3,
+          "ids": [
+            "GO:0005576",
+            "GO:0005739",
+            "GO:0005634"
+          ],
+          "duplicates": {}
+        }
+      },
+      "missing_tsv_values": [
+        "xref_geneid"
+      ],
+      "go_without_GoEvidenceType": [],
+      "issues": []
+    },
+    {
+      "accession": "A0A1B0GTW7",
+      "protein_names_tsv": "Ciliated left-right organizer metallopeptidase (EC 3.4.24.-) (Leishmanolysin-like peptidase 2)",
+      "primary_gene_names": [
+        "CIROP"
+      ],
+      "gene_ids": [
+        "100128908"
+      ],
+      "length_aa": 788,
+      "go_unique_count": 7,
+      "go_unique_by_category": {
+        "BP": 3,
+        "MF": 2,
+        "CC": 2
+      },
+      "json_go_duplicate_ids": {},
+      "tsv_go": {
+        "go_id": {
+          "tokens": 7,
+          "ids": [
+            "GO:0004222",
+            "GO:0005737",
+            "GO:0006508",
+            "GO:0007155",
+            "GO:0008233",
+            "GO:0016020",
+            "GO:0061966"
+          ],
+          "duplicates": {}
+        },
+        "go_p": {
+          "tokens": 3,
+          "ids": [
+            "GO:0007155",
+            "GO:0061966",
+            "GO:0006508"
+          ],
+          "duplicates": {}
+        },
+        "go_f": {
+          "tokens": 2,
+          "ids": [
+            "GO:0004222",
+            "GO:0008233"
+          ],
+          "duplicates": {}
+        },
+        "go_c": {
+          "tokens": 2,
+          "ids": [
+            "GO:0005737",
+            "GO:0016020"
+          ],
+          "duplicates": {}
+        }
+      },
+      "missing_tsv_values": [],
+      "go_without_GoEvidenceType": [],
+      "issues": []
+    },
+    {
+      "accession": "A0JNW5",
+      "protein_names_tsv": "Bridge-like lipid transfer protein family member 3B (Syntaxin-6 Habc-interacting protein of 164 kDa) (UHRF1-binding protein 1-like)",
+      "primary_gene_names": [
+        "BLTP3B"
+      ],
+      "gene_ids": [
+        "23074"
+      ],
+      "length_aa": 1464,
+      "go_unique_count": 7,
+      "go_unique_by_category": {
+        "BP": 2,
+        "MF": 3,
+        "CC": 2
+      },
+      "json_go_duplicate_ids": {},
+      "tsv_go": {
+        "go_id": {
+          "tokens": 7,
+          "ids": [
+            "GO:0005769",
+            "GO:0005829",
+            "GO:0034498",
+            "GO:0042803",
+            "GO:0062069",
+            "GO:0120009",
+            "GO:0120013"
+          ],
+          "duplicates": {}
+        },
+        "go_p": {
+          "tokens": 2,
+          "ids": [
+            "GO:0034498",
+            "GO:0120009"
+          ],
+          "duplicates": {}
+        },
+        "go_f": {
+          "tokens": 3,
+          "ids": [
+            "GO:0062069",
+            "GO:0120013",
+            "GO:0042803"
+          ],
+          "duplicates": {}
+        },
+        "go_c": {
+          "tokens": 2,
+          "ids": [
+            "GO:0005829",
+            "GO:0005769"
+          ],
+          "duplicates": {}
+        }
+      },
+      "missing_tsv_values": [],
+      "go_without_GoEvidenceType": [],
+      "issues": []
+    },
+    {
+      "accession": "A0JP26",
+      "protein_names_tsv": "POTE ankyrin domain family member B3",
+      "primary_gene_names": [
+        "POTEB3"
+      ],
+      "gene_ids": [
+        "102724631"
+      ],
+      "length_aa": 581,
+      "go_unique_count": 0,
+      "go_unique_by_category": {
+        "BP": 0,
+        "MF": 0,
+        "CC": 0
+      },
+      "json_go_duplicate_ids": {},
+      "tsv_go": {
+        "go_id": {
+          "tokens": 0,
+          "ids": [],
+          "duplicates": {}
+        },
+        "go_p": {
+          "tokens": 0,
+          "ids": [],
+          "duplicates": {}
+        },
+        "go_f": {
+          "tokens": 0,
+          "ids": [],
+          "duplicates": {}
+        },
+        "go_c": {
+          "tokens": 0,
+          "ids": [],
+          "duplicates": {}
+        }
+      },
+      "missing_tsv_values": [
+        "go_p",
+        "go_f",
+        "go_c",
+        "go_id"
+      ],
+      "go_without_GoEvidenceType": [],
+      "issues": []
+    },
+    {
+      "accession": "A0PK11",
+      "protein_names_tsv": "Clarin-2",
+      "primary_gene_names": [
+        "CLRN2"
+      ],
+      "gene_ids": [
+        "645104"
+      ],
+      "length_aa": 232,
+      "go_unique_count": 5,
+      "go_unique_by_category": {
+        "BP": 3,
+        "MF": 0,
+        "CC": 2
+      },
+      "json_go_duplicate_ids": {},
+      "tsv_go": {
+        "go_id": {
+          "tokens": 5,
+          "ids": [
+            "GO:0007605",
+            "GO:0032421",
+            "GO:0060088",
+            "GO:0060171",
+            "GO:0120045"
+          ],
+          "duplicates": {}
+        },
+        "go_p": {
+          "tokens": 3,
+          "ids": [
+            "GO:0060088",
+            "GO:0007605",
+            "GO:0120045"
+          ],
+          "duplicates": {}
+        },
+        "go_f": {
+          "tokens": 0,
+          "ids": [],
+          "duplicates": {}
+        },
+        "go_c": {
+          "tokens": 2,
+          "ids": [
+            "GO:0032421",
+            "GO:0060171"
+          ],
+          "duplicates": {}
+        }
+      },
+      "missing_tsv_values": [
+        "go_f"
+      ],
+      "go_without_GoEvidenceType": [],
+      "issues": []
+    },
+    {
+      "accession": "A1A4S6",
+      "protein_names_tsv": "Rho GTPase-activating protein 10 (GTPase regulator associated with focal adhesion kinase 2) (GRAF2) (Graf-related protein 2) (Rho-type GTPase-activating protein 10)",
+      "primary_gene_names": [
+        "ARHGAP10"
+      ],
+      "gene_ids": [
+        "79658"
+      ],
+      "length_aa": 786,
+      "go_unique_count": 9,
+      "go_unique_by_category": {
+        "BP": 4,
+        "MF": 1,
+        "CC": 4
+      },
+      "json_go_duplicate_ids": {},
+      "tsv_go": {
+        "go_id": {
+          "tokens": 9,
+          "ids": [
+            "GO:0005096",
+            "GO:0005829",
+            "GO:0005886",
+            "GO:0007010",
+            "GO:0007165",
+            "GO:0010008",
+            "GO:0043066",
+            "GO:0048471",
+            "GO:0051056"
+          ],
+          "duplicates": {}
+        },
+        "go_p": {
+          "tokens": 4,
+          "ids": [
+            "GO:0007010",
+            "GO:0043066",
+            "GO:0051056",
+            "GO:0007165"
+          ],
+          "duplicates": {}
+        },
+        "go_f": {
+          "tokens": 1,
+          "ids": [
+            "GO:0005096"
+          ],
+          "duplicates": {}
+        },
+        "go_c": {
+          "tokens": 4,
+          "ids": [
+            "GO:0005829",
+            "GO:0010008",
+            "GO:0048471",
+            "GO:0005886"
+          ],
+          "duplicates": {}
+        }
+      },
+      "missing_tsv_values": [],
+      "go_without_GoEvidenceType": [],
+      "issues": []
+    },
+    {
+      "accession": "A1A519",
+      "protein_names_tsv": "Protein FAM170A (Zinc finger domain-containing protein) (Zinc finger protein ZNFD)",
+      "primary_gene_names": [
+        "FAM170A"
+      ],
+      "gene_ids": [
+        "340069"
+      ],
+      "length_aa": 330,
+      "go_unique_count": 10,
+      "go_unique_by_category": {
+        "BP": 8,
+        "MF": 1,
+        "CC": 1
+      },
+      "json_go_duplicate_ids": {},
+      "tsv_go": {
+        "go_id": {
+          "tokens": 10,
+          "ids": [
+            "GO:0000981",
+            "GO:0005634",
+            "GO:0006338",
+            "GO:0006366",
+            "GO:0007286",
+            "GO:0009566",
+            "GO:0030317",
+            "GO:0042307",
+            "GO:0045893",
+            "GO:1903003"
+          ],
+          "duplicates": {}
+        },
+        "go_p": {
+          "tokens": 8,
+          "ids": [
+            "GO:0006338",
+            "GO:0009566",
+            "GO:0030317",
+            "GO:0045893",
+            "GO:1903003",
+            "GO:0042307",
+            "GO:0007286",
+            "GO:0006366"
+          ],
+          "duplicates": {}
+        },
+        "go_f": {
+          "tokens": 1,
+          "ids": [
+            "GO:0000981"
+          ],
+          "duplicates": {}
+        },
+        "go_c": {
+          "tokens": 1,
+          "ids": [
+            "GO:0005634"
+          ],
+          "duplicates": {}
+        }
+      },
+      "missing_tsv_values": [],
+      "go_without_GoEvidenceType": [],
+      "issues": []
+    },
+    {
+      "accession": "A1L190",
+      "protein_names_tsv": "Synaptonemal complex central element protein 3 (Testis highly expressed gene 2 protein) (THEG-2)",
+      "primary_gene_names": [
+        "SYCE3"
+      ],
+      "gene_ids": [
+        "644186"
+      ],
+      "length_aa": 88,
+      "go_unique_count": 10,
+      "go_unique_by_category": {
+        "BP": 5,
+        "MF": 0,
+        "CC": 5
+      },
+      "json_go_duplicate_ids": {},
+      "tsv_go": {
+        "go_id": {
+          "tokens": 10,
+          "ids": [
+            "GO:0000794",
+            "GO:0000795",
+            "GO:0000801",
+            "GO:0005634",
+            "GO:0005694",
+            "GO:0007129",
+            "GO:0007130",
+            "GO:0007131",
+            "GO:0007283",
+            "GO:0035825"
+          ],
+          "duplicates": {}
+        },
+        "go_p": {
+          "tokens": 5,
+          "ids": [
+            "GO:0007129",
+            "GO:0035825",
+            "GO:0007131",
+            "GO:0007283",
+            "GO:0007130"
+          ],
+          "duplicates": {}
+        },
+        "go_f": {
+          "tokens": 0,
+          "ids": [],
+          "duplicates": {}
+        },
+        "go_c": {
+          "tokens": 5,
+          "ids": [
+            "GO:0000801",
+            "GO:0005694",
+            "GO:0000794",
+            "GO:0005634",
+            "GO:0000795"
+          ],
+          "duplicates": {}
+        }
+      },
+      "missing_tsv_values": [
+        "go_f"
+      ],
+      "go_without_GoEvidenceType": [],
+      "issues": []
+    },
+    {
+      "accession": "A1L3X0",
+      "protein_names_tsv": "Very long chain fatty acid elongase 7 (EC 2.3.1.199) (3-keto acyl-CoA synthase ELOVL7) (ELOVL fatty acid elongase 7) (ELOVL FA elongase 7) (Elongation of very long chain fatty acids protein 7) (Very long chain 3-ketoacyl-CoA synthase 7) (Very long chain 3-oxoacyl-CoA synthase 7)",
+      "primary_gene_names": [
+        "ELOVL7"
+      ],
+      "gene_ids": [
+        "79993"
+      ],
+      "length_aa": 281,
+      "go_unique_count": 10,
+      "go_unique_by_category": {
+        "BP": 7,
+        "MF": 1,
+        "CC": 2
+      },
+      "json_go_duplicate_ids": {},
+      "tsv_go": {
+        "go_id": {
+          "tokens": 10,
+          "ids": [
+            "GO:0005783",
+            "GO:0005789",
+            "GO:0006636",
+            "GO:0009922",
+            "GO:0019367",
+            "GO:0030148",
+            "GO:0034625",
+            "GO:0034626",
+            "GO:0035338",
+            "GO:0042761"
+          ],
+          "duplicates": {}
+        },
+        "go_p": {
+          "tokens": 7,
+          "ids": [
+            "GO:0034625",
+            "GO:0034626",
+            "GO:0019367",
+            "GO:0035338",
+            "GO:0030148",
+            "GO:0006636",
+            "GO:0042761"
+          ],
+          "duplicates": {}
+        },
+        "go_f": {
+          "tokens": 1,
+          "ids": [
+            "GO:0009922"
+          ],
+          "duplicates": {}
+        },
+        "go_c": {
+          "tokens": 2,
+          "ids": [
+            "GO:0005783",
+            "GO:0005789"
+          ],
+          "duplicates": {}
+        }
+      },
+      "missing_tsv_values": [],
+      "go_without_GoEvidenceType": [],
+      "issues": []
+    },
+    {
+      "accession": "A1X283",
+      "protein_names_tsv": "SH3 and PX domain-containing protein 2B (Adapter protein HOFI) (Factor for adipocyte differentiation 49) (Tyrosine kinase substrate with four SH3 domains)",
+      "primary_gene_names": [
+        "SH3PXD2B"
+      ],
+      "gene_ids": [
+        "285590"
+      ],
+      "length_aa": 911,
+      "go_unique_count": 28,
+      "go_unique_by_category": {
+        "BP": 19,
+        "MF": 7,
+        "CC": 2
+      },
+      "json_go_duplicate_ids": {},
+      "tsv_go": {
+        "go_id": {
+          "tokens": 28,
+          "ids": [
+            "GO:0001501",
+            "GO:0001654",
+            "GO:0002051",
+            "GO:0002102",
+            "GO:0005737",
+            "GO:0006801",
+            "GO:0007507",
+            "GO:0010314",
+            "GO:0010628",
+            "GO:0016176",
+            "GO:0022617",
+            "GO:0032266",
+            "GO:0035091",
+            "GO:0040018",
+            "GO:0042169",
+            "GO:0042554",
+            "GO:0045600",
+            "GO:0048705",
+            "GO:0051496",
+            "GO:0060348",
+            "GO:0060378",
+            "GO:0060612",
+            "GO:0070273",
+            "GO:0071800",
+            "GO:0072657",
+            "GO:0080025",
+            "GO:1904179",
+            "GO:1904888"
+          ],
+          "duplicates": {}
+        },
+        "go_p": {
+          "tokens": 19,
+          "ids": [
+            "GO:0060612",
+            "GO:0060348",
+            "GO:1904888",
+            "GO:0022617",
+            "GO:0001654",
+            "GO:0007507",
+            "GO:0002051",
+            "GO:0071800",
+            "GO:1904179",
+            "GO:0045600",
+            "GO:0010628",
+            "GO:0040018",
+            "GO:0051496",
+            "GO:0072657",
+            "GO:0060378",
+            "GO:0001501",
+            "GO:0048705",
+            "GO:0042554",
+            "GO:0006801"
+          ],
+          "duplicates": {}
+        },
+        "go_f": {
+          "tokens": 7,
+          "ids": [
+            "GO:0035091",
+            "GO:0080025",
+            "GO:0032266",
+            "GO:0070273",
+            "GO:0010314",
+            "GO:0042169",
+            "GO:0016176"
+          ],
+          "duplicates": {}
+        },
+        "go_c": {
+          "tokens": 2,
+          "ids": [
+            "GO:0005737",
+            "GO:0002102"
+          ],
+          "duplicates": {}
+        }
+      },
+      "missing_tsv_values": [],
+      "go_without_GoEvidenceType": [],
+      "issues": []
+    }
+  ]
+}

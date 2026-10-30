@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "csv_comparisons": {
+    "bootstrap_correlations.csv": {
+      "sha256": "e56e389f9426d25ce5ba1d063021bcd531063fc7e6b4028ab1aa8e4d0484d0ca",
+      "repeat_sha256": "e56e389f9426d25ce5ba1d063021bcd531063fc7e6b4028ab1aa8e4d0484d0ca",
+      "identical": true
+    },
+    "correlation_results.csv": {
+      "sha256": "25b3fc32a147384fdd5430d74cabfe11789203e5a300c655259cc1b6b5232158",
+      "repeat_sha256": "25b3fc32a147384fdd5430d74cabfe11789203e5a300c655259cc1b6b5232158",
+      "identical": true
+    },
+    "descriptive_statistics.csv": {
+      "sha256": "f2ca65b2589b2adb1c34672a68da04b5533360f29de2985ae89cf3d3bd2e6aed",
+      "repeat_sha256": "f2ca65b2589b2adb1c34672a68da04b5533360f29de2985ae89cf3d3bd2e6aed",
+      "identical": true
+    },
+    "sensitivity_results.csv": {
+      "sha256": "17483e7ced01fb90388101a2d897803519e0658dcb9564bcd0f7b35a7c023b49",
+      "repeat_sha256": "17483e7ced01fb90388101a2d897803519e0658dcb9564bcd0f7b35a7c023b49",
+      "identical": true
+    },
+    "sensitivity_selection.csv": {
+      "sha256": "eb35dc506aef6fd9918266602a49142b8e9e9b33475024a0d1fbf78db32c0aaa",
+      "repeat_sha256": "eb35dc506aef6fd9918266602a49142b8e9e9b33475024a0d1fbf78db32c0aaa",
+      "identical": true
+    }
+  },
+  "analysis_report_identical": true,
+  "analysis_metadata_matches_excluding_run_times_and_figure_hashes": true,
+  "input_sha256_unchanged": "a1b62f7bcb6524f53fb93cef4efc48744e96ed7a3bc33c71318473f0913bf567",
+  "bootstrap_ci_recomputed_from_saved_replicates": true,
+  "all_bootstrap_replicates_finite": true,
+  "sensitivity_selection_counts_verified": true,
+  "statistics_regression_tests_passed": 2,
+  "png_visual_inspection_count": 4,
+  "pdf_files_verified": 4
+}

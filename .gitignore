@@ -1,0 +1,6 @@
+.python/
+.python-bin/
+.uv-cache/
+protein-go-research/.venv/
+__pycache__/
+*.pyc

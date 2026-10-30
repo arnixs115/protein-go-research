@@ -1,0 +1,2 @@
+# Preserve exact bytes: research provenance uses SHA-256 checksums.
+* -text

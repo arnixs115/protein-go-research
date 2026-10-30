@@ -1,0 +1,28 @@
+{
+  "code_sha256": {
+    "03_prepare_dataset.py": "e8a278690359304b4ea15e4e9b00c97dbe193012942e797cba995948213cf660",
+    "uniprot_dataset.py": "3201df3f6cb327b6c67fb6b24809b4d7fd7d99a3217ea4467b87c014a5c9ce2f"
+  },
+  "csv_columns": [
+    "accession",
+    "protein_name",
+    "gene_name",
+    "gene_id",
+    "sequence_length",
+    "go_total_count",
+    "go_bp_count",
+    "go_mf_count",
+    "go_cc_count"
+  ],
+  "csv_sha256": "a1b62f7bcb6524f53fb93cef4efc48744e96ed7a3bc33c71318473f0913bf567",
+  "quality_report_sha256": "bcef21d7aabc6cd698b27b558e6fa19a072a4b8437344adf4071ef45bed4a8de",
+  "row_count": 20431,
+  "snapshot": {
+    "release": "2026_03",
+    "release_date": "02-September-2026",
+    "total_results": 20431
+  },
+  "source_manifest_sha256": "41354173ac97366ba16ed2aa8fb0143d68da686ea661d95af1d324e5d2464fe5",
+  "source_run": "full_20261030",
+  "status": "complete"
+}
