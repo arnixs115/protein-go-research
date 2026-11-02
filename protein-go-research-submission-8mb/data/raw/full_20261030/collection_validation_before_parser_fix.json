@@ -1,0 +1,1756 @@
+{
+  "accessions_sharing_gene_id_count": 90,
+  "api_total_results": 20431,
+  "counts_match": true,
+  "duplicate_json_accessions": [],
+  "duplicate_tsv_accessions": [],
+  "gene_id_missing_entries": 1277,
+  "gene_id_multiple_entries": 99,
+  "go_duplicate_ids": {},
+  "go_refs_without_eco_array": 114057,
+  "go_refs_without_evidence_type": 0,
+  "go_zero_entries": 1056,
+  "issue_counts": {
+    "json_tsv_mismatch": 148
+  },
+  "issues": [
+    {
+      "accession": "A1L429",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "GAGE12B; GAGE12C; GAGE12D; GAGE12E"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "A8MXU0",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "DEFB108A; DEFB108C"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "A8MYA2",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "CXorf49; CXorf49B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "B0I1T2",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Unconventional myosin-Ig [Cleaved into: Minor histocompatibility antigen HA-2 (mHag HA-2)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "C9J1S8",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "TRIM49D1; TRIM49D2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O00230",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Cortistatin [Cleaved into: Cortistatin-29; Cortistatin-17; Cortistatin-14]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O00468",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Agrin [Cleaved into: Agrin N-terminal 110 kDa subunit (N110); Agrin C-terminal 110 kDa subunit (C110); Agrin C-terminal 90 kDa fragment (C90); Agrin C-terminal 22 kDa fragment (C22)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O14598",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "VCY; VCY1B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O14599",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "BPY2; BPY2B; BPY2C"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O14603",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "PRY; PRY2; PRYP3; PRYP4"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O14944",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Proepiregulin [Cleaved into: Epiregulin (EPR)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O15240",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Neurosecretory protein VGF [Cleaved into: Neuroendocrine regulatory peptide-1 (NERP-1); Neuroendocrine regulatory peptide-2 (NERP-2); VGF-derived peptide TLQP-21; VGF-derived peptide TLQP-62; Antimicrobial peptide VGF[554-577]]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O15263",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "DEFB4A; DEFB4B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O15482",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "TEX28; TEX28P1; TEX28P2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O15527",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "N-glycosylase/DNA lyase [Includes: 8-oxoguanine DNA glycosylase (EC 3.2.2.-); DNA-(apurinic or apyrimidinic site) lyase (AP lyase) (EC 4.2.99.18)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O60224",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "SSX4; SSX4B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O60568",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Multifunctional procollagen lysine hydroxylase and glycosyltransferase LH3 [Includes: Procollagen-lysine,2-oxoglutarate 5-dioxygenase 3 (EC 1.14.11.4) (Lysyl hydroxylase 3) (LH3); Procollagen glycosyltransferase (EC 2.4.1.50) (EC 2.4.1.66) (Galactosylhydroxylysine-glucosyltransferase) (Procollagen galactosyltransferase) (Procollagen glucosyltransferase)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O75920",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "SERF1A; SERF1B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O95479",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "GDH/6PGL endoplasmic bifunctional protein [Includes: Hexose-6-phosphate dehydrogenase (Glucose 1-dehydrogenase) (GDH) (EC 1.1.1.47) (Glucose-6-phosphate dehydrogenase) (EC 1.1.1.363); 6-phosphogluconolactonase (6PGL) (EC 3.1.1.31)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O95671",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Probable bifunctional dTTP/UTP pyrophosphatase/methyltransferase protein [Includes: dTTP/UTP pyrophosphatase (dTTPase/UTPase) (EC 3.6.1.9) (Nucleoside triphosphate pyrophosphatase) (Nucleotide pyrophosphatase) (Nucleotide PPase); N-acetylserotonin O-methyltransferase-like protein (ASMTL) (EC 2.1.1.-)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "O97980",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Minor histocompatibility protein HB-1 [Cleaved into: Minor histocompatibility antigen HB-1 (mHag HB-1)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P00747",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Plasminogen [Cleaved into: Plasmin (EC 3.4.21.7); Plasmin heavy chain A; Plasmin light chain B; Angiostatin]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P01135",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Protransforming growth factor alpha [Cleaved into: Transforming growth factor alpha (TGF-alpha) (EGF-like TGF) (ETGF) (TGF type 1)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P01137",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Transforming growth factor beta-1 proprotein [Cleaved into: Latency-associated peptide (LAP); Transforming growth factor beta-1 (TGF-beta-1)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P01210",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Proenkephalin-A [Cleaved into: Synenkephalin; Met-enkephalin (Opioid growth factor) (OGF); PENK(114-133); PENK(143-183); Met-enkephalin-Arg-Gly-Leu; Leu-enkephalin; PENK(237-258); Met-enkephalin-Arg-Phe; Neuropeptide BAM22 (Bovine adrenal medulla peptide 22); Neuropeptide BAM20 (Bovine adrenal medulla peptide 20); Neuropeptide BAM8-22 (Bovine adrenal medulla peptide 8-22) (BAM(8-22))]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P01258",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Calcitonin [Cleaved into: Calcitonin (CT); Katacalcin (Calcitonin carboxyl-terminal peptide) (CCP) (PDN-21)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P01275",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Pro-glucagon [Cleaved into: Glicentin; Glicentin-related polypeptide (GRPP); Oxyntomodulin (OXM) (OXY); Glucagon; Glucagon-like peptide 1 (GLP-1) (Incretin hormone); Glucagon-like peptide 1(7-37) (GLP-1(7-37)); Glucagon-like peptide 1(7-36) (GLP-1(7-36)); Glucagon-like peptide 2 (GLP-2)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P01282",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "VIP peptides [Cleaved into: Intestinal peptide PHV-42 (Peptide histidine valine 42) (PHV-42); Intestinal peptide PHM-27 (Peptide histidine methioninamide 27) (PHM-27); Vasoactive intestinal peptide (VIP) (Vasoactive intestinal polypeptide)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P01303",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Pro-neuropeptide Y [Cleaved into: Neuropeptide Y (Neuropeptide tyrosine) (NPY); C-flanking peptide of NPY (CPON)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P01308",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Insulin [Cleaved into: Insulin B chain; Insulin A chain]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P01350",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Gastrin [Cleaved into: Gastrin-71 (Gastrin component I); Gastrin-52 (G52); Big gastrin (Gastrin component II) (Gastrin-34) (G34); Gastrin (Gastrin component III) (Gastrin-17) (G17); Gastrin-14 (G14); Gastrin-6 (G6)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P01358",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Gastric juice peptide 1 [Cleaved into: Gastric juice peptide 2]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P02462",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Collagen alpha-1(IV) chain [Cleaved into: Arresten]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P02545",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Prelamin-A/C [Cleaved into: Lamin-A/C (70 kDa lamin) (Renal carcinoma antigen NY-REN-32)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P02671",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Fibrinogen alpha chain [Cleaved into: Fibrinopeptide A; Fibrinogen alpha chain]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P02675",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Fibrinogen beta chain [Cleaved into: Fibrinopeptide B; Fibrinogen beta chain]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P02741",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "C-reactive protein [Cleaved into: C-reactive protein(1-205)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P02748",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Complement component C9 [Cleaved into: Complement component C9a; Complement component C9b]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P02810",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "PRH1; PRH2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P04090",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Prorelaxin H2 [Cleaved into: Relaxin B chain; Relaxin A chain]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P04808",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Prorelaxin H1 [Cleaved into: Relaxin B chain; Relaxin A chain]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P04908",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "H2AC4; H2AC8"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P05813",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Beta-crystallin A3 [Cleaved into: Beta-crystallin A3, isoform A1, Delta4 form; Beta-crystallin A3, isoform A1, Delta7 form; Beta-crystallin A3, isoform A1, Delta8 form]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P06454",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Prothymosin alpha [Cleaved into: Prothymosin alpha, N-terminally processed; Thymosin alpha-1]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P08572",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Collagen alpha-2(IV) chain [Cleaved into: Canstatin]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P08949",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Neuromedin-B [Cleaved into: Neuromedin-B-32; Neuromedin-B]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P09668",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Pro-cathepsin H [Cleaved into: Cathepsin H mini chain; Cathepsin H (EC 3.4.22.16); Cathepsin H heavy chain; Cathepsin H light chain]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P0C0L5",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "C4B; C4B_2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P0C0S8",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "H2AC11; H2AC13; H2AC15; H2AC16; H2AC17"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P0C5Z0",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "H2AB2; H2AB3"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P0C7P3",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Protein SLFN14 [Cleaved into: C-terminally truncated SLFN14 endoribonuclease (EC 3.1.-.-) (Schlafen family member 14)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P0CG47",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Polyubiquitin-B [Cleaved into: Ubiquitin]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P0CG48",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Polyubiquitin-C [Cleaved into: Ubiquitin]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P0DN86",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "CGB3; CGB5; CGB8"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P10600",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Transforming growth factor beta-3 proprotein [Cleaved into: Latency-associated peptide (LAP); Transforming growth factor beta-3 (TGF-beta-3)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P12532",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "CKMT1A; CKMT1B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P12872",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Promotilin [Cleaved into: Motilin; Motilin-associated peptide (MAP)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P13995",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, mitochondrial [Includes: NAD-dependent methylenetetrahydrofolate dehydrogenase (EC 1.5.1.15); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P14410",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Sucrase-isomaltase, intestinal [Cleaved into: Sucrase (EC 3.2.1.48); Isomaltase (EC 3.2.1.10)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P16619",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "CCL3L1; CCL3L3"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P20382",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Pro-MCH [Cleaved into: Neuropeptide-glycine-glutamic acid (NGE) (Neuropeptide G-E); Neuropeptide-glutamic acid-isoleucine (NEI) (Neuropeptide E-I); Melanin-concentrating hormone (MCH)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P22102",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Trifunctional purine biosynthetic protein adenosine-3 [Includes: Phosphoribosylamine--glycine ligase (EC 6.3.4.13) (Glycinamide ribonucleotide synthetase) (GARS) (Phosphoribosylglycinamide synthetase); Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1) (AIR synthase) (AIRS) (Phosphoribosyl-aminoimidazole synthetase); Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2) (5'-phosphoribosylglycinamide transformylase) (GAR transformylase) (GART)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P22466",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Galanin peptides [Cleaved into: Galanin; Galanin message-associated peptide (GMAP)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P23582",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "C-type natriuretic peptide [Cleaved into: CNP-22; CNP-29; CNP-53]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P23610",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "F8A1; F8A2; F8A3"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P30990",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Neurotensin/neuromedin N [Cleaved into: Large neuromedin N (NmN-125); Neuromedin N (NN) (NmN); Neurotensin (NT); Tail peptide]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P32969",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "RPL9; RPL9P7; RPL9P8; RPL9P9"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P34913",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Bifunctional epoxide hydrolase 2 [Includes: Cytosolic epoxide hydrolase 2 (CEH) (EC 3.3.2.10) (Epoxide hydratase) (Soluble epoxide hydrolase) (SEH); Lipid-phosphate phosphatase (EC 3.1.3.76)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P35052",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Glypican-1 [Cleaved into: Secreted glypican-1]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P35070",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Probetacellulin [Cleaved into: Betacellulin (BTC)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P35318",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Pro-adrenomedullin [Cleaved into: Adrenomedullin (AM); Proadrenomedullin N-20 terminal peptide (ProAM N-terminal 20 peptide) (PAMP) (ProAM-N20); Proadrenomedullin 9-20 terminal peptide (PAMP-12)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P35555",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Fibrillin-1 [Cleaved into: Asprosin]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P35556",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Fibrillin-2 [Cleaved into: Placensin]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P39059",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Collagen alpha-1(XV) chain [Cleaved into: Restin (Endostatin-XV) (Related to endostatin) (Restin-I); Restin-2 (Restin-II); Restin-3 (Restin-III); Restin-4 (Restin-IV)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P39060",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Collagen alpha-1(XVIII) chain [Cleaved into: Endostatin; Non-collagenous domain 1 (NC1)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P43356",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "MAGEA2; MAGEA2B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P43362",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "MAGEA9; MAGEA9B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P47710",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Alpha-S1-casein [Cleaved into: Casoxin-D]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P47929",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "LGALS7; LGALS7B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P47989",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Xanthine dehydrogenase/oxidase [Includes: Xanthine dehydrogenase (XD) (EC 1.17.1.4); Xanthine oxidase (XO) (EC 1.17.3.2) (Xanthine oxidoreductase) (XOR)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P53708",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Integrin alpha-8 [Cleaved into: Integrin alpha-8 heavy chain; Integrin alpha-8 light chain]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P59665",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "DEFA1; DEFA1B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P61769",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Beta-2-microglobulin [Cleaved into: Beta-2-microglobulin form pI 5.3]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P62805",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "H4C1; H4C2; H4C3; H4C4; H4C5; H4C6; H4C8; H4C9; H4C11; H4C12; H4C13; H4C14; H4C15; H4C16"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P62807",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "H2BC4; H2BC6; H2BC7; H2BC8; H2BC10"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P68431",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "H3C1; H3C2; H3C3; H3C4; H3C6; H3C7; H3C8; H3C10; H3C11; H3C12"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P69905",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "HBA1; HBA2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P78333",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Glypican-5 [Cleaved into: Secreted glypican-5]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P78358",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "CTAG1A; CTAG1B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P81534",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "DEFB103A; DEFB103B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "P84243",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "H3-3A; H3-3B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q02325",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "PLGLB1; PLGLB2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q0WX57",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "USP17L24; USP17L25; USP17L26; USP17L27; USP17L28; USP17L29; USP17L30"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q13066",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "GAGE2B; GAGE2C"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q13519",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Prepronociceptin [Cleaved into: Nocistatin; Nociceptin (Orphanin FQ) (PPNOC); Orphanin FQ2]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q13683",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Integrin alpha-7 [Cleaved into: Integrin alpha-7 heavy chain; Integrin alpha-7 light chain; Integrin alpha-7 70 kDa form]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q14005",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Pro-interleukin-16 [Cleaved into: Interleukin-16 (IL-16) (Lymphocyte chemoattractant factor) (LCF)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q15415",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "RBMY1F; RBMY1J"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q16385",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "SSX2; SSX2B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q16568",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Cocaine- and amphetamine-regulated transcript protein [Cleaved into: CART(1-39); CART(42-89)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q16637",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "SMN1; SMN2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q16661",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Guanylate cyclase activator 2B [Cleaved into: Guanylate cyclase C-activating peptide 2 (Guanylate cyclase C-activating peptide II) (GCAP-II); Uroguanylin (UGN)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q5HYR2",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "DMRTC1; DMRTC1B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q5JQC4",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "CT47A1; CT47A2; CT47A3; CT47A4; CT47A5; CT47A6; CT47A7; CT47A8; CT47A9; CT47A10; CT47A11; CT47A12"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q5JQF8",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "PABPC1L2A; PABPC1L2B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q5VT28",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "FAM27B; FAM27C"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q6FI13",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "H2AC18; H2AC19"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q6IEY1",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "OR4F3; OR4F16; OR4F29"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q6NUJ1",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Proactivator polypeptide-like 1 [Cleaved into: Saposin A-like; Saposin B-Val-like; Saposin B-like; Saposin C-like; Saposin D-like]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q6P1K8",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "GTF2H2C; GTF2H2C_2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q6ZMI3",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Gliomedin [Cleaved into: Gliomedin shedded ectodomain]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q71DI3",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "H3C15; H3C14; H3C13"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q75N90",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Fibrillin-3 [Cleaved into: Fibrillin-3 C-terminal peptide]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q8IW00",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "V-set and transmembrane domain-containing protein 4 [Cleaved into: Peptide Lv]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q8IZN7",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "DEFB107A; DEFB107B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q8N104",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "DEFB106A; DEFB106B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q8N158",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Glypican-2 [Cleaved into: Secreted glypican-2]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q8NDB6",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "FAM156A; FAM156B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q8NFF5",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Bifunctional FAD diphosphatase/FAD synthase [Includes: FAD diphosphatase (EC 3.6.1.18) (EC 3.6.1.22) (FAD pyrophosphatase) (FADPPase) (FADHy) (NADH diphosphatase); FAD synthase (FADSy) (EC 2.7.7.2) (FMN adenylyltransferase) (FMNAT) (Flavin adenine dinucleotide synthase)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q8NG35",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "DEFB105A; DEFB105B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q8NGT9",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "OR2A1; OR2A42"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q8NHW4",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "CCL4L1; CCL4L2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q8WTQ1",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "DEFB104A; DEFB104B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q8WVF2",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Unique cartilage matrix-associated protein [Cleaved into: Unique cartilage matrix-associated protein C-terminal fragment (Ucma-C) (Gla-rich protein) (GRP)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q92619",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Rho GTPase-activating protein 45 [Cleaved into: Minor histocompatibility antigen HA-1 (mHag HA-1)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q96JG8",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "MAGED4; MAGED4B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q96LI6",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "HSFY1; HSFY2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q96PQ0",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "VPS10 domain-containing receptor SorCS2 [Cleaved into: SorCS2 122 kDa chain; SorCS2 104 kDa chain; SorCS2 18 kDa chain]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q96QH8",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "SPACA5; SPACA5B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q99075",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Proheparin-binding EGF-like growth factor [Cleaved into: Heparin-binding EGF-like growth factor (HB-EGF) (HBEGF) (Diphtheria toxin receptor) (DT-R)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q99666",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "RGPD5; RGPD6"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9BQ83",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "SLX1A; SLX1B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9BXJ7",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Protein amnionless [Cleaved into: Soluble protein amnionless]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9GZY0",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "NXF2; NXF2B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9H3K6",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "BOLA2; BOLA2B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9HCQ7",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Pro-FMRFamide-related neuropeptide VF [Cleaved into: Neuropeptide NPSF; Neuropeptide RFRP-1; Neuropeptide RFRP-2; Neuropeptide NPVF (Neuropeptide RFRP-3)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9HD64",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "XAGE1A; XAGE1B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9NQX3",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Gephyrin [Includes: Molybdopterin adenylyltransferase (MPT adenylyltransferase) (EC 2.7.7.75) (Domain G); Molybdopterin molybdenumtransferase (MPT Mo-transferase) (EC 2.10.1.1) (Domain E) (Mo insertase)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9NS26",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "SPANXA1; SPANXA2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9NZW4",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Dentin sialophosphoprotein [Cleaved into: Dentin phosphoprotein (Dentin phosphophoryn) (DPP); Dentin sialoprotein (DSP)]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9UBD0",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "HSFX1; HSFX2"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9UEU5",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "GAGE2D; GAGE8"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9ULZ0",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "TP53TG3; TP53TG3B; TP53TG3C; TP53TG3D; TP53TG3E; TP53TG3F"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9UPZ6",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Thrombospondin type-1 domain-containing protein 7A [Cleaved into: Thrombospondin type-1 domain-containing protein 7A, soluble form]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9Y5P2",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "CSAG2; CSAG3"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9Y625",
+      "detail": {
+        "field": "canonical_protein_name",
+        "tsv": "Glypican-6 [Cleaved into: Secreted glypican-6]"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9Y6F7",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "CDY2A; CDY2B"
+      },
+      "kind": "json_tsv_mismatch"
+    },
+    {
+      "accession": "Q9Y6F8",
+      "detail": {
+        "field": "gene_primary",
+        "tsv": "CDY1; CDY1B"
+      },
+      "kind": "json_tsv_mismatch"
+    }
+  ],
+  "json_unique_accessions": 20431,
+  "only_json_accessions": [],
+  "only_tsv_accessions": [],
+  "passed": false,
+  "raw_checksums": [
+    {
+      "file": "json/page_00001_e73b1ba8.json",
+      "sha256": "2a69c4ad5089cd260c853eea4d50a5c91642bc2b90c92dccf1bb68c4488dc944"
+    },
+    {
+      "file": "json/page_00002_2846909f.json",
+      "sha256": "877e81abb856758dd977673ef2a662df3664f9c30f07a08363a9a84bc9338b29"
+    },
+    {
+      "file": "json/page_00003_849742f8.json",
+      "sha256": "89c35ef189a4cf2a17d5dc8d8203e22cc408bd79f2c3f6f5a47a94ca926063a1"
+    },
+    {
+      "file": "json/page_00004_0568fafe.json",
+      "sha256": "ab78389fbce349cebe3449ba0eae3c31c37c935993875bb7891eca4cfd86ac18"
+    },
+    {
+      "file": "json/page_00005_e5fdede6.json",
+      "sha256": "367bc3496c8fa2e03e8475023d54e82df154f84af84c954dc3709e527c464290"
+    },
+    {
+      "file": "json/page_00006_f505d4a1.json",
+      "sha256": "c79928d817aefd88d376058dbbdf08489032460f7c83f4d3238952aa02bbe4d6"
+    },
+    {
+      "file": "json/page_00007_f5905df7.json",
+      "sha256": "f00a6d9e56ffdfdbcf02e1f4c12fcaeae895d7ddf377403e90e49953db93502d"
+    },
+    {
+      "file": "json/page_00008_a80660a9.json",
+      "sha256": "2227947479914e4e6653e5578bc994386bbb3846f364c68ffc5fc73e1ef5107c"
+    },
+    {
+      "file": "json/page_00009_768fdbed.json",
+      "sha256": "83c2dcbb3528eafc596851acda35b61c8e96fdb02585a48639f6a403cfa17b48"
+    },
+    {
+      "file": "json/page_00010_5f635184.json",
+      "sha256": "4490f5d9818e1827acc038d690bb9e5c5b06071f20ab376987386163b868269a"
+    },
+    {
+      "file": "json/page_00011_4a637945.json",
+      "sha256": "5090b8ed9210afe87512988aa1975688726961e33b74fd0684534dcc7af9e53e"
+    },
+    {
+      "file": "json/page_00012_c90b59b4.json",
+      "sha256": "d1e5c6d72899302de8bb00d03106f795736229d43f0262f0a47454247ffe596c"
+    },
+    {
+      "file": "json/page_00013_892b436b.json",
+      "sha256": "35f6a8c282136758edede8c6e87d16b03681d5a43b934e63d10cfad4e5dcfaef"
+    },
+    {
+      "file": "json/page_00014_244fd724.json",
+      "sha256": "c129c1fc6b0277539cd268b15dccf0e468a15282fd66a1ceb0dba107d4d31d51"
+    },
+    {
+      "file": "json/page_00015_7a51505d.json",
+      "sha256": "aa94c489dbc7e384fc8c543f797c4142f1187d319f65c71bf6c3a2c2d753258e"
+    },
+    {
+      "file": "json/page_00016_eb078b1b.json",
+      "sha256": "ba8a2b4531f67ab12866a4cb9a1810cb407ffca4ebd9ecdf58713868215b50a9"
+    },
+    {
+      "file": "json/page_00017_05cf03c4.json",
+      "sha256": "3355c0aafc5c63253aeb41854e02b31fc17e9267035f67429ce27b945923bc8d"
+    },
+    {
+      "file": "json/page_00018_856993fd.json",
+      "sha256": "eb2f126607c96a1147aebc80acf460c5c9e14793e5fe23b598f913ffbd848790"
+    },
+    {
+      "file": "json/page_00019_778c8781.json",
+      "sha256": "5a730f0bbadbd57b2c1dc9b3732a5349f165f042c24c9d37ce842fe95f0c7282"
+    },
+    {
+      "file": "json/page_00020_cb5ae41d.json",
+      "sha256": "0f2720a58d6a1e1cacc361c076d1d324672280e2fd7eb8b117216f345a4dd525"
+    },
+    {
+      "file": "json/page_00021_d1975c5b.json",
+      "sha256": "af5584eb00530a20262a0c024e5a17dbd7b1fe52e4e34b3d9bc4fa010cf8c916"
+    },
+    {
+      "file": "json/page_00022_e0b44049.json",
+      "sha256": "e3518a21d15cd7701861f74f571e71660d727214b88840aa1364a1e0db2a38da"
+    },
+    {
+      "file": "json/page_00023_10de93fa.json",
+      "sha256": "3cb3c39426ad72a59c08a694bcd96a89145396a1aa6c7cc73112db2efb0172dd"
+    },
+    {
+      "file": "json/page_00024_7e75c162.json",
+      "sha256": "dd6a1870fb83bde5ede31fc6ba67d5651465bf5943e803852c128675c950dcda"
+    },
+    {
+      "file": "json/page_00025_36df56cf.json",
+      "sha256": "fe4d5791a6b13a289b0c1398126ab7f33c1e285bb842a060afd98c5405151a53"
+    },
+    {
+      "file": "json/page_00026_da5da6be.json",
+      "sha256": "61f9ffe46a1b82d6f3bd886faf1c530e7e06d0af5c33244dff2fa9ae82e3da21"
+    },
+    {
+      "file": "json/page_00027_68867ff3.json",
+      "sha256": "46512a263fed776342fcc1e0a3ab9bb3e6fbff90d362c94c2b7a373498400152"
+    },
+    {
+      "file": "json/page_00028_e2cff9d2.json",
+      "sha256": "35eb866a0a0709fb187d1d7d9747e90b60a9caf12ed72bed4d7abaa831270902"
+    },
+    {
+      "file": "json/page_00029_69f90800.json",
+      "sha256": "1702c8777fa6f74ecb6832e77077565ccc70d87255dcebeeb7db2c103ee25903"
+    },
+    {
+      "file": "json/page_00030_1c21bab1.json",
+      "sha256": "57471ff0dfadf72309eec7103132ed691988502897de401f1331ce78973cb3a2"
+    },
+    {
+      "file": "json/page_00031_a9f35f34.json",
+      "sha256": "57ef9ee332eeb6e2cddbde5c23d6980102ecf40397a20648d2e114ee2f944001"
+    },
+    {
+      "file": "json/page_00032_14b54f02.json",
+      "sha256": "a02d69aa4eacc522e15f88f556f7b9623547602099013843374d87e37738f2cd"
+    },
+    {
+      "file": "json/page_00033_12269620.json",
+      "sha256": "1ed7800dfa84d667ca37839651040cb08566aeee0f89a0c006eec6bf3ac70244"
+    },
+    {
+      "file": "json/page_00034_7cfa7751.json",
+      "sha256": "a9dd58d37e2686940186289c2c04baf74de481d02453ff31c09c8b908f3d2a3b"
+    },
+    {
+      "file": "json/page_00035_9eb255c4.json",
+      "sha256": "33575ca3dba8d1aecdd8eb6b99898a4355a16a2c3e7785e4de79a0b558a6132a"
+    },
+    {
+      "file": "json/page_00036_71eac93d.json",
+      "sha256": "9c6a03358f93cbfe3c1059c97e0a95616196247918995836d7c9c2ab41c08a9f"
+    },
+    {
+      "file": "json/page_00037_d8e40dd1.json",
+      "sha256": "02d541c8bf3fc383299410b1cc7a31c69515f64d1bc0d5ed2b1edc2f50ac0182"
+    },
+    {
+      "file": "json/page_00038_4a51e2a6.json",
+      "sha256": "68ebbf91cf4869d2973257456f020fe78a3a3cbb88aa530705c50dfb27c5f2a3"
+    },
+    {
+      "file": "json/page_00039_829a1c75.json",
+      "sha256": "3eaf163a8041b6e14b155fa4b52170cef4f74c70bb32472f4b0555dfb7874002"
+    },
+    {
+      "file": "json/page_00040_54b2e6d4.json",
+      "sha256": "6f29315d9a08dcaec36a82fd59c33987c9e45fdebee4c74856c68665c1e4fb3b"
+    },
+    {
+      "file": "json/page_00041_d3189f54.json",
+      "sha256": "7e5d18138ccc47c309051485a2addd0e0990df96379737a8f24dda2b8709e1e3"
+    },
+    {
+      "file": "tsv/page_00001_686691d6.tsv",
+      "sha256": "195896fd86c3240702d92bcaba38c7502fb3d5bad8ba0849e86b9696590ce373"
+    },
+    {
+      "file": "tsv/page_00002_e7e7dd97.tsv",
+      "sha256": "2801895630d5d55c4330c911e5e04c7464abeb998cfcd27e5941283c3075d4e1"
+    },
+    {
+      "file": "tsv/page_00003_42cbff3f.tsv",
+      "sha256": "defe9309b682b9a6ae73247bca55c2bf64ca66a267543db12df53154006d2d3e"
+    },
+    {
+      "file": "tsv/page_00004_3d386d46.tsv",
+      "sha256": "0191dc6201e5659c4a5cbd99a4e8deffeec28a58fb2f2027b2fd7fd1d09018a3"
+    },
+    {
+      "file": "tsv/page_00005_b2e8898a.tsv",
+      "sha256": "42ad7c8e6e45a33cc4cd1175c3e90c752c089b876add3262ed399ae7aba648ae"
+    },
+    {
+      "file": "tsv/page_00006_8ba9ec40.tsv",
+      "sha256": "9ae0ad4ea33ce4a22c9b34223fe90cf36c3e064ab4932b30f516ec74d9593004"
+    },
+    {
+      "file": "tsv/page_00007_b6362815.tsv",
+      "sha256": "3c8b9f489c444c88f2b88ab748cde8b9dd49c838df8bbba6ddb690337459f9c7"
+    },
+    {
+      "file": "tsv/page_00008_dbf8c2f9.tsv",
+      "sha256": "6121a0c7062e0b906563a43c1a584301b4b4f8bc799067ad97ffc2687f4b3d3b"
+    },
+    {
+      "file": "tsv/page_00009_845d10f0.tsv",
+      "sha256": "ca6e04a216a35cd9f9313561da25f91a824bff6cfe9dbdcfd721ec77b17843fe"
+    },
+    {
+      "file": "tsv/page_00010_1f4a0fd7.tsv",
+      "sha256": "e1d238432124d9820c02a44f3204ce00d9bb853792007f750228a51d61cd239f"
+    },
+    {
+      "file": "tsv/page_00011_0711d203.tsv",
+      "sha256": "15860d37c2470f46d530b51f70363db1c518d1023896c6a4beefe50ab6e09dc4"
+    },
+    {
+      "file": "tsv/page_00012_e61299f2.tsv",
+      "sha256": "c41c7c64c1e87d09683f6897e7e73c6011d934a49f216afed11729b14cd873e9"
+    },
+    {
+      "file": "tsv/page_00013_bb0bd4b5.tsv",
+      "sha256": "ed4db7076b09c8ce05cf5504c5e25c127c4ff88e8d54dfe1490cfbe984d98269"
+    },
+    {
+      "file": "tsv/page_00014_0cfcb662.tsv",
+      "sha256": "8d04e940d05c25fb38b55f020c8056512c0a6a3d213a0b5a9f8d70c727adeb7b"
+    },
+    {
+      "file": "tsv/page_00015_38770ed7.tsv",
+      "sha256": "37bb1bef7b7f13ad135bb74eda2f926b18e88f2ba48e40e56e415878046e75ac"
+    },
+    {
+      "file": "tsv/page_00016_f3ab5fd7.tsv",
+      "sha256": "560fa94b8daa9a0c5b3399a10f13e790f173608293de5f60a1edc11f9beb20b5"
+    },
+    {
+      "file": "tsv/page_00017_0f2d6726.tsv",
+      "sha256": "7eb671f70cf0766000d5f232d92beee7de3c79ab8d6db00f3c9ee62778d45391"
+    },
+    {
+      "file": "tsv/page_00018_f20e19e0.tsv",
+      "sha256": "6656fda0662cab39c1a7bd2c0b3295924270102cfc4e63e62391a1ac5d82aab3"
+    },
+    {
+      "file": "tsv/page_00019_e497f8ff.tsv",
+      "sha256": "fc2493c5e90fcde1de450d663d54496f92a406d34000292fb63239dbba10de5e"
+    },
+    {
+      "file": "tsv/page_00020_f1e49b75.tsv",
+      "sha256": "445c20a567500b2a5ba7187566d83536c7724a873cac42b8f84b133e86852f26"
+    },
+    {
+      "file": "tsv/page_00021_eee1ee2c.tsv",
+      "sha256": "1113dab2e38b833927964aedc36f80566cc01393b0acb8cf605c70110c093e09"
+    },
+    {
+      "file": "tsv/page_00022_ea178073.tsv",
+      "sha256": "23fdb9d4dcdb70b7137af98a900a2c6ac23f1758a1b6658194ea1c231cb826c3"
+    },
+    {
+      "file": "tsv/page_00023_db42b68c.tsv",
+      "sha256": "15045e1e81c8b52fc2f02583093cf6a52af364b2c106124bf688621ccd5fb61d"
+    },
+    {
+      "file": "tsv/page_00024_bb52dde1.tsv",
+      "sha256": "191f20499003dc88e580b7716ba4ea8822af4f1283161bfbb918c73877305521"
+    },
+    {
+      "file": "tsv/page_00025_5a82035b.tsv",
+      "sha256": "124e98a319ff3be28e3347a2323842f47e04af9a6c5223ed94f455fa6bab0f77"
+    },
+    {
+      "file": "tsv/page_00026_01fd5abb.tsv",
+      "sha256": "709882e32f347e4f0c9969d558c49ea8d0a078566628c757f2e380ccb468303c"
+    },
+    {
+      "file": "tsv/page_00027_0e4b986a.tsv",
+      "sha256": "0716a27acbcd71a1bbd73a09d5943066f32514999c7299fd755e0583ba786d4a"
+    },
+    {
+      "file": "tsv/page_00028_0515cff4.tsv",
+      "sha256": "54032abe2384dea893b255c0be8b303782ce19e34bb4c9504f7926faf1df93bd"
+    },
+    {
+      "file": "tsv/page_00029_761c0c83.tsv",
+      "sha256": "57a3e1a6f9e2f131a86e46f3fb92d3d44d4f490bdf3ac6a0844719600dabd5f8"
+    },
+    {
+      "file": "tsv/page_00030_7da164b0.tsv",
+      "sha256": "65ea7834f6e42dace496fca7a0396404144ab0ad99c86dedfc17966bb60a13d9"
+    },
+    {
+      "file": "tsv/page_00031_df47718b.tsv",
+      "sha256": "a1d7b2ce41d11b8eea319cecb36278463941618f7812aaeee85e19ceba5fc585"
+    },
+    {
+      "file": "tsv/page_00032_53b7d710.tsv",
+      "sha256": "ccd477482f64d152f3243af582fb15e0ea9628d9dc8b81c26fde689fe87d4883"
+    },
+    {
+      "file": "tsv/page_00033_a004355f.tsv",
+      "sha256": "fd5f0c66506880eb5c54ed49c2bdfe365aeb7a5a7699dffe2a9a9dc469d1d041"
+    },
+    {
+      "file": "tsv/page_00034_9fbe0b18.tsv",
+      "sha256": "4635c281fb2f1db457684b9223642c81656356cb4080e490a0796b3ee8b8f116"
+    },
+    {
+      "file": "tsv/page_00035_2b4fa21f.tsv",
+      "sha256": "25f77ddb6586485a1c4ec345e4586040387f9a054fbc68fb0701a042706f1f22"
+    },
+    {
+      "file": "tsv/page_00036_62801420.tsv",
+      "sha256": "f238fa5f25f287d82197fef3c60c0af29acef88628e158ed2a8ed3cc78bd39de"
+    },
+    {
+      "file": "tsv/page_00037_70979d8d.tsv",
+      "sha256": "5b635e5cfa8f37765ab7ea9b5e00f10963c5c24292797f17ca9a5c5465286fc6"
+    },
+    {
+      "file": "tsv/page_00038_15ede5e1.tsv",
+      "sha256": "b3ed9eb731bf0fbd630b4200ce5cca7d176bd040275dd72c1a40e936b3ca7951"
+    },
+    {
+      "file": "tsv/page_00039_ba41cb43.tsv",
+      "sha256": "e521c24ca66572051f245c918ce1e7f7558d4d204a6ddf4d5621d01df669523c"
+    },
+    {
+      "file": "tsv/page_00040_30744a55.tsv",
+      "sha256": "7a4c5b92da79c91d3f6c0b074097e3279844d33750d6e54d826473dbb4ca8014"
+    },
+    {
+      "file": "tsv/page_00041_f859889b.tsv",
+      "sha256": "df1e27f03c50e4cd3a928e47bae1d5bb79075c4a81a3b962efe655c9f3c76f7e"
+    }
+  ],
+  "shared_gene_id_count": 52,
+  "shared_gene_ids": {
+    "100129239": [
+      "A0A1B0GTR3",
+      "P0DPH9"
+    ],
+    "100133053": [
+      "A0A1B0GTR3",
+      "P0DPH9"
+    ],
+    "100996758": [
+      "P0DQD5",
+      "P50391"
+    ],
+    "101059938": [
+      "E9PJI5",
+      "P0DM63"
+    ],
+    "101059953": [
+      "E9PJI5",
+      "P0DM63"
+    ],
+    "101060233": [
+      "P04001",
+      "P0DN78"
+    ],
+    "1029": [
+      "P42771",
+      "Q8N726"
+    ],
+    "10326": [
+      "O00241",
+      "Q5TFQ8"
+    ],
+    "10407": [
+      "Q08648",
+      "Q6PDA7"
+    ],
+    "1523": [
+      "P39880",
+      "Q13948"
+    ],
+    "163590": [
+      "Q8NFQ8",
+      "Q9H496"
+    ],
+    "2074": [
+      "P0DP91",
+      "Q03468"
+    ],
+    "23499": [
+      "O94854",
+      "Q9UPN3"
+    ],
+    "26748": [
+      "O76087",
+      "P0CL82"
+    ],
+    "27113": [
+      "Q96PG8",
+      "Q9BXH1"
+    ],
+    "27433": [
+      "Q5JU69",
+      "Q8N2E6"
+    ],
+    "276": [
+      "P0DTE7",
+      "P0DTE8",
+      "P0DUB6"
+    ],
+    "277": [
+      "P0DTE7",
+      "P0DTE8",
+      "P0DUB6"
+    ],
+    "2778": [
+      "O95467",
+      "P63092",
+      "P84996",
+      "Q5JWF2"
+    ],
+    "278": [
+      "P0DTE7",
+      "P0DTE8",
+      "P0DUB6"
+    ],
+    "286527": [
+      "P0CG34",
+      "P0CG35"
+    ],
+    "3017": [
+      "P58876",
+      "P62807"
+    ],
+    "3303": [
+      "P0DMV8",
+      "P0DMV9"
+    ],
+    "3304": [
+      "P0DMV8",
+      "P0DMV9"
+    ],
+    "388372": [
+      "P13236",
+      "Q8NHW4"
+    ],
+    "414060": [
+      "Q6IPX1",
+      "Q8IZP1"
+    ],
+    "4338": [
+      "O96007",
+      "O96033"
+    ],
+    "445329": [
+      "P0DMM9",
+      "P0DMN0"
+    ],
+    "4666": [
+      "E9PAV3",
+      "Q13765"
+    ],
+    "51082": [
+      "P0DPB5",
+      "P0DPB6"
+    ],
+    "51207": [
+      "Q6B8I1",
+      "Q9UII6"
+    ],
+    "51463": [
+      "B7ZAQ6",
+      "P0CG08"
+    ],
+    "5621": [
+      "F7VJQ1",
+      "P04156"
+    ],
+    "6399": [
+      "P0DI81",
+      "P0DI82"
+    ],
+    "642799": [
+      "E9PIF3",
+      "Q9UND3"
+    ],
+    "653423": [
+      "Q08648",
+      "Q6PDA7"
+    ],
+    "653519": [
+      "B7ZAQ6",
+      "P0CG08"
+    ],
+    "7112": [
+      "P42166",
+      "P42167"
+    ],
+    "721": [
+      "P0C0L4",
+      "P0C0L5"
+    ],
+    "728279": [
+      "Q9BYT5",
+      "Q9BYU5"
+    ],
+    "796": [
+      "P01258",
+      "P06881"
+    ],
+    "801": [
+      "P0DP23",
+      "P0DP24",
+      "P0DP25"
+    ],
+    "805": [
+      "P0DP23",
+      "P0DP24",
+      "P0DP25"
+    ],
+    "808": [
+      "P0DP23",
+      "P0DP24",
+      "P0DP25"
+    ],
+    "81488": [
+      "P0CAP2",
+      "Q6EEV4"
+    ],
+    "83871": [
+      "P0DI83",
+      "Q9BZG1"
+    ],
+    "89832": [
+      "P36544",
+      "Q494W8"
+    ],
+    "9369": [
+      "Q9HDB5",
+      "Q9Y4C0"
+    ],
+    "9378": [
+      "P58400",
+      "Q9ULB1"
+    ],
+    "9379": [
+      "P58401",
+      "Q9P2S2"
+    ],
+    "9465": [
+      "O43687",
+      "Q9P0M2"
+    ],
+    "9910": [
+      "B7ZAP0",
+      "Q5R372"
+    ]
+  },
+  "tsv_unique_accessions": 20431
+}

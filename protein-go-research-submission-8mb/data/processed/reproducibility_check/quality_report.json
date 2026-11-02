@@ -1,0 +1,2335 @@
+{
+  "accessions_sharing_gene_id_count": 90,
+  "api_total_results": 20431,
+  "counts_match": true,
+  "csv_columns": [
+    "accession",
+    "protein_name",
+    "gene_name",
+    "gene_id",
+    "sequence_length",
+    "go_total_count",
+    "go_bp_count",
+    "go_mf_count",
+    "go_cc_count"
+  ],
+  "duplicate_json_accessions": [],
+  "duplicate_tsv_accessions": [],
+  "gene_id_missing_accessions": [
+    "A0A075B6H7",
+    "A0A075B6H8",
+    "A0A075B6H9",
+    "A0A075B6I0",
+    "A0A075B6I1",
+    "A0A075B6I3",
+    "A0A075B6I4",
+    "A0A075B6I6",
+    "A0A075B6I7",
+    "A0A075B6I9",
+    "A0A075B6J1",
+    "A0A075B6J2",
+    "A0A075B6J6",
+    "A0A075B6J9",
+    "A0A075B6K0",
+    "A0A075B6K2",
+    "A0A075B6K4",
+    "A0A075B6K5",
+    "A0A075B6K6",
+    "A0A075B6L2",
+    "A0A075B6L6",
+    "A0A075B6N1",
+    "A0A075B6N2",
+    "A0A075B6N3",
+    "A0A075B6N4",
+    "A0A075B6P5",
+    "A0A075B6Q5",
+    "A0A075B6R0",
+    "A0A075B6R2",
+    "A0A075B6R9",
+    "A0A075B6S0",
+    "A0A075B6S2",
+    "A0A075B6S4",
+    "A0A075B6S5",
+    "A0A075B6S6",
+    "A0A075B6S9",
+    "A0A075B6T6",
+    "A0A075B6T7",
+    "A0A075B6T8",
+    "A0A075B6U4",
+    "A0A075B6V5",
+    "A0A075B6W5",
+    "A0A075B6X5",
+    "A0A075B6Y3",
+    "A0A075B6Y9",
+    "A0A075B700",
+    "A0A075B706",
+    "A0A087WSX0",
+    "A0A087WSY4",
+    "A0A087WSY6",
+    "A0A087WSZ0",
+    "A0A087WSZ9",
+    "A0A087WT01",
+    "A0A087WT02",
+    "A0A087WT03",
+    "A0A087WV62",
+    "A0A087WW87",
+    "A0A087X0K7",
+    "A0A087X0M5",
+    "A0A096LPI5",
+    "A0A0A0MRZ7",
+    "A0A0A0MRZ8",
+    "A0A0A0MRZ9",
+    "A0A0A0MS00",
+    "A0A0A0MS01",
+    "A0A0A0MS02",
+    "A0A0A0MS03",
+    "A0A0A0MS04",
+    "A0A0A0MS05",
+    "A0A0A0MS06",
+    "A0A0A0MS14",
+    "A0A0A0MS15",
+    "A0A0A0MT36",
+    "A0A0A0MT70",
+    "A0A0A0MT76",
+    "A0A0A0MT78",
+    "A0A0A0MT87",
+    "A0A0A0MT89",
+    "A0A0A0MT94",
+    "A0A0A0MTA4",
+    "A0A0A0MTA7",
+    "A0A0A6YYC5",
+    "A0A0A6YYD4",
+    "A0A0A6YYG2",
+    "A0A0A6YYG3",
+    "A0A0A6YYJ7",
+    "A0A0A6YYK1",
+    "A0A0A6YYK4",
+    "A0A0A6YYK6",
+    "A0A0A6YYK7",
+    "A0A0B4J1U3",
+    "A0A0B4J1U4",
+    "A0A0B4J1U6",
+    "A0A0B4J1U7",
+    "A0A0B4J1V0",
+    "A0A0B4J1V1",
+    "A0A0B4J1V2",
+    "A0A0B4J1V6",
+    "A0A0B4J1V7",
+    "A0A0B4J1X5",
+    "A0A0B4J1X8",
+    "A0A0B4J1Y8",
+    "A0A0B4J1Y9",
+    "A0A0B4J1Z2",
+    "A0A0B4J200",
+    "A0A0B4J234",
+    "A0A0B4J235",
+    "A0A0B4J237",
+    "A0A0B4J238",
+    "A0A0B4J240",
+    "A0A0B4J241",
+    "A0A0B4J244",
+    "A0A0B4J245",
+    "A0A0B4J248",
+    "A0A0B4J249",
+    "A0A0B4J262",
+    "A0A0B4J263",
+    "A0A0B4J264",
+    "A0A0B4J265",
+    "A0A0B4J266",
+    "A0A0B4J268",
+    "A0A0B4J271",
+    "A0A0B4J272",
+    "A0A0B4J273",
+    "A0A0B4J274",
+    "A0A0B4J275",
+    "A0A0B4J276",
+    "A0A0B4J277",
+    "A0A0B4J279",
+    "A0A0B4J280",
+    "A0A0B4J2D9",
+    "A0A0B4J2E0",
+    "A0A0B4J2H0",
+    "A0A0C4DH24",
+    "A0A0C4DH25",
+    "A0A0C4DH26",
+    "A0A0C4DH27",
+    "A0A0C4DH28",
+    "A0A0C4DH29",
+    "A0A0C4DH30",
+    "A0A0C4DH31",
+    "A0A0C4DH32",
+    "A0A0C4DH33",
+    "A0A0C4DH34",
+    "A0A0C4DH35",
+    "A0A0C4DH36",
+    "A0A0C4DH38",
+    "A0A0C4DH39",
+    "A0A0C4DH41",
+    "A0A0C4DH42",
+    "A0A0C4DH43",
+    "A0A0C4DH55",
+    "A0A0C4DH59",
+    "A0A0C4DH62",
+    "A0A0C4DH67",
+    "A0A0C4DH68",
+    "A0A0C4DH69",
+    "A0A0C4DH72",
+    "A0A0C4DH73",
+    "A0A0C5B5G6",
+    "A0A0G2JMI3",
+    "A0A0G2JS06",
+    "A0A0J9YVY3",
+    "A0A0J9YWP8",
+    "A0A0J9YWX3",
+    "A0A0J9YX06",
+    "A0A0J9YX35",
+    "A0A0J9YX75",
+    "A0A0J9YXA8",
+    "A0A0J9YXG5",
+    "A0A0J9YXM7",
+    "A0A0J9YXV3",
+    "A0A0J9YXX1",
+    "A0A0J9YXY3",
+    "A0A0K0K1A3",
+    "A0A0K0K1A5",
+    "A0A0K0K1B3",
+    "A0A0K0K1C0",
+    "A0A0K0K1C4",
+    "A0A0K0K1D8",
+    "A0A0K0K1E9",
+    "A0A0K0K1G6",
+    "A0A0K0K1G8",
+    "A0A1B0GVH4",
+    "A0A1B0GX31",
+    "A0A1B0GX49",
+    "A0A1B0GX51",
+    "A0A1B0GX56",
+    "A0A1B0GX68",
+    "A0A1B0GX78",
+    "A0A1B0GX95",
+    "A0A1B0GXF2",
+    "A0A286YEX9",
+    "A0A3G1DIU6",
+    "A0A3G1DJK2",
+    "A0A3G1DJL1",
+    "A0A3G1DJL7",
+    "A0A3G1DJN1",
+    "A0A3G1DJQ2",
+    "A0A455ZAR2",
+    "A0A539",
+    "A0A576",
+    "A0A577",
+    "A0A578",
+    "A0A584",
+    "A0A589",
+    "A0A597",
+    "A0A599",
+    "A0A5A2",
+    "A0A5A6",
+    "A0A5B0",
+    "A0A5B6",
+    "A0A5B7",
+    "A0A5B9",
+    "A0A7L8Y648",
+    "A0JD32",
+    "A0JD36",
+    "A0JD37",
+    "A0M8Q6",
+    "A0PJZ0",
+    "A0ZSE6",
+    "A1A4F0",
+    "A1L3X4",
+    "A1L4Q6",
+    "A2A2Z9",
+    "A2A3N6",
+    "A2JGV3",
+    "A2NJV5",
+    "A2RU37",
+    "A2RUQ5",
+    "A2VEC9",
+    "A4D0Y5",
+    "A4D1N5",
+    "A4D250",
+    "A4D2B8",
+    "A4QN01",
+    "A4QPB2",
+    "A4QPH2",
+    "A6NC62",
+    "A6NC78",
+    "A6NC97",
+    "A6NCF6",
+    "A6NCI5",
+    "A6NCN2",
+    "A6NDL7",
+    "A6NDN8",
+    "A6NDR6",
+    "A6NDX4",
+    "A6NDX5",
+    "A6NEC2",
+    "A6NEH8",
+    "A6NEL3",
+    "A6NEY8",
+    "A6NF01",
+    "A6NFC9",
+    "A6NFF2",
+    "A6NFR6",
+    "A6NGG3",
+    "A6NGU5",
+    "A6NGU7",
+    "A6NGW2",
+    "A6NH13",
+    "A6NHM9",
+    "A6NHR8",
+    "A6NHS1",
+    "A6NI72",
+    "A6NIE6",
+    "A6NIE9",
+    "A6NIU2",
+    "A6NIZ1",
+    "A6NJ88",
+    "A6NJR5",
+    "A6NJY1",
+    "A6NK97",
+    "A6NKF1",
+    "A6NKH3",
+    "A6NKX1",
+    "A6NKX4",
+    "A6NL46",
+    "A6NM43",
+    "A6NM66",
+    "A6NMB1",
+    "A6NMU1",
+    "A6NMY6",
+    "A6NN73",
+    "A6NN90",
+    "A6NNA2",
+    "A6NNC1",
+    "A6NNH2",
+    "A6NNM8",
+    "A6PVC2",
+    "A8CG34",
+    "A8K010",
+    "A8K0S8",
+    "A8K554",
+    "A8MPP1",
+    "A8MQ11",
+    "A8MQB3",
+    "A8MT19",
+    "A8MT66",
+    "A8MTI9",
+    "A8MTW9",
+    "A8MU10",
+    "A8MUA0",
+    "A8MUH7",
+    "A8MUI8",
+    "A8MUL3",
+    "A8MUN3",
+    "A8MUU1",
+    "A8MUU9",
+    "A8MV57",
+    "A8MV72",
+    "A8MVJ9",
+    "A8MVM7",
+    "A8MVU1",
+    "A8MVZ5",
+    "A8MWA4",
+    "A8MWD9",
+    "A8MWE9",
+    "A8MWK0",
+    "A8MWL6",
+    "A8MWL7",
+    "A8MWP4",
+    "A8MWX3",
+    "A8MX80",
+    "A8MXU0",
+    "A8MYB1",
+    "A8MYZ6",
+    "A8MZ25",
+    "A8MZF0",
+    "A8MZH6",
+    "B0L3A2",
+    "B1AH88",
+    "B1AK76",
+    "B1AMM8",
+    "B1ANH7",
+    "B1ANS9",
+    "B1ANY3",
+    "B2RD01",
+    "B2RPK0",
+    "B3EWF7",
+    "B7Z368",
+    "B7Z8K6",
+    "B7ZC32",
+    "C0HLS1",
+    "C0HLU2",
+    "C0HLZ6",
+    "C0HM01",
+    "C0HM02",
+    "C0HM83",
+    "C0HM98",
+    "C0HMA1",
+    "C0HMD6",
+    "C0HMD7",
+    "C0HME5",
+    "C0HME6",
+    "C0HMG9",
+    "C4AMC7",
+    "C9JC47",
+    "C9JG80",
+    "C9JQL5",
+    "D6RBM5",
+    "E2RYF7",
+    "E5RG02",
+    "E5RJ46",
+    "F2Z398",
+    "F2Z3F1",
+    "F5H094",
+    "G2XKQ0",
+    "G3V0H7",
+    "G3V211",
+    "G9CGD6",
+    "H0UI37",
+    "H0YKK7",
+    "I3L0S3",
+    "J3KSC0",
+    "K7EIQ3",
+    "L0R6Q1",
+    "L0R8F8",
+    "O00370",
+    "O14603",
+    "O14609",
+    "O15172",
+    "O15225",
+    "O15255",
+    "O15428",
+    "O15544",
+    "O42043",
+    "O43261",
+    "O43316",
+    "O43423",
+    "O60384",
+    "O60397",
+    "O60756",
+    "O60774",
+    "O71037",
+    "O75022",
+    "O75343",
+    "O76042",
+    "O95177",
+    "O95397",
+    "O95411",
+    "O95744",
+    "O96002",
+    "P01358",
+    "P01593",
+    "P01594",
+    "P01597",
+    "P01599",
+    "P01601",
+    "P01602",
+    "P01611",
+    "P01614",
+    "P01615",
+    "P01619",
+    "P01624",
+    "P01699",
+    "P01700",
+    "P01701",
+    "P01703",
+    "P01704",
+    "P01705",
+    "P01706",
+    "P01709",
+    "P01714",
+    "P01715",
+    "P01717",
+    "P01718",
+    "P01721",
+    "P01733",
+    "P01737",
+    "P01742",
+    "P01743",
+    "P01762",
+    "P01763",
+    "P01764",
+    "P01766",
+    "P01767",
+    "P01768",
+    "P01772",
+    "P01780",
+    "P01782",
+    "P01814",
+    "P01817",
+    "P01824",
+    "P01825",
+    "P01834",
+    "P01848",
+    "P01850",
+    "P01854",
+    "P01857",
+    "P01858",
+    "P01859",
+    "P01860",
+    "P01861",
+    "P01871",
+    "P01876",
+    "P01877",
+    "P01880",
+    "P01893",
+    "P02728",
+    "P02729",
+    "P03979",
+    "P03986",
+    "P04211",
+    "P04430",
+    "P04432",
+    "P04433",
+    "P04435",
+    "P04437",
+    "P06310",
+    "P06312",
+    "P06315",
+    "P06331",
+    "P09565",
+    "P0C2Y1",
+    "P0C5K6",
+    "P0C5K7",
+    "P0C604",
+    "P0C623",
+    "P0C626",
+    "P0C628",
+    "P0C646",
+    "P0C6P0",
+    "P0C7A2",
+    "P0C7M3",
+    "P0C7N1",
+    "P0C7N8",
+    "P0C7P2",
+    "P0C7P4",
+    "P0C7T2",
+    "P0C7T4",
+    "P0C7T7",
+    "P0C7U9",
+    "P0C7V0",
+    "P0C7V7",
+    "P0C7V9",
+    "P0C7X3",
+    "P0C7X4",
+    "P0C841",
+    "P0C853",
+    "P0C854",
+    "P0C864",
+    "P0C866",
+    "P0C879",
+    "P0C880",
+    "P0CAT3",
+    "P0CB48",
+    "P0CE67",
+    "P0CF51",
+    "P0CF74",
+    "P0CG00",
+    "P0CG01",
+    "P0CG04",
+    "P0CG22",
+    "P0CG31",
+    "P0CG42",
+    "P0CG43",
+    "P0CH98",
+    "P0CJ68",
+    "P0CJ69",
+    "P0CJ70",
+    "P0CJ71",
+    "P0CJ72",
+    "P0CJ73",
+    "P0CJ74",
+    "P0CJ75",
+    "P0CJ76",
+    "P0CJ77",
+    "P0CJ85",
+    "P0CJ86",
+    "P0CJ87",
+    "P0CJ88",
+    "P0CJ89",
+    "P0CJ90",
+    "P0CK97",
+    "P0CL83",
+    "P0CL84",
+    "P0CL85",
+    "P0CW21",
+    "P0CZ25",
+    "P0DJD4",
+    "P0DMP1",
+    "P0DMR3",
+    "P0DMU2",
+    "P0DN80",
+    "P0DN81",
+    "P0DO92",
+    "P0DOX2",
+    "P0DOX3",
+    "P0DOX4",
+    "P0DOX5",
+    "P0DOX6",
+    "P0DOX7",
+    "P0DOX8",
+    "P0DOY2",
+    "P0DOY3",
+    "P0DOY5",
+    "P0DP01",
+    "P0DP02",
+    "P0DP03",
+    "P0DP04",
+    "P0DP06",
+    "P0DP07",
+    "P0DP08",
+    "P0DP09",
+    "P0DP72",
+    "P0DP75",
+    "P0DPA3",
+    "P0DPF4",
+    "P0DPF6",
+    "P0DPF7",
+    "P0DPI4",
+    "P0DPQ6",
+    "P0DPR3",
+    "P0DSE1",
+    "P0DSE2",
+    "P0DSN6",
+    "P0DSN7",
+    "P0DSO1",
+    "P0DSO2",
+    "P0DTE0",
+    "P0DTE1",
+    "P0DTE2",
+    "P0DTU3",
+    "P0DTU4",
+    "P0DTW3",
+    "P0DUQ2",
+    "P0DW28",
+    "P0DW81",
+    "P0DXC1",
+    "P0DY26",
+    "P0DY27",
+    "P0DY57",
+    "P10163",
+    "P10265",
+    "P10266",
+    "P12525",
+    "P13985",
+    "P22103",
+    "P23083",
+    "P36268",
+    "P40205",
+    "P43359",
+    "P47883",
+    "P47884",
+    "P48741",
+    "P51784",
+    "P51861",
+    "P52743",
+    "P54792",
+    "P56555",
+    "P57078",
+    "P58512",
+    "P58513",
+    "P58550",
+    "P59020",
+    "P59022",
+    "P59036",
+    "P59037",
+    "P59047",
+    "P59052",
+    "P59074",
+    "P59091",
+    "P59539",
+    "P59922",
+    "P60008",
+    "P60509",
+    "P60608",
+    "P61550",
+    "P61565",
+    "P61566",
+    "P61567",
+    "P61568",
+    "P61570",
+    "P61571",
+    "P61572",
+    "P61573",
+    "P61574",
+    "P61575",
+    "P61576",
+    "P61578",
+    "P61579",
+    "P61580",
+    "P61581",
+    "P61582",
+    "P61583",
+    "P62683",
+    "P62684",
+    "P62685",
+    "P63119",
+    "P63120",
+    "P63121",
+    "P63122",
+    "P63123",
+    "P63124",
+    "P63125",
+    "P63126",
+    "P63127",
+    "P63128",
+    "P63129",
+    "P63130",
+    "P63131",
+    "P63132",
+    "P63133",
+    "P63135",
+    "P63136",
+    "P63145",
+    "P69208",
+    "P80748",
+    "P86434",
+    "P87889",
+    "Q05BU3",
+    "Q06250",
+    "Q08E93",
+    "Q0D2H9",
+    "Q0D2K5",
+    "Q0IIN9",
+    "Q0P140",
+    "Q0VAA5",
+    "Q0VDD5",
+    "Q0VF49",
+    "Q0VFX4",
+    "Q0VG73",
+    "Q107X0",
+    "Q13166",
+    "Q13278",
+    "Q13401",
+    "Q13434",
+    "Q13536",
+    "Q13670",
+    "Q14236",
+    "Q14568",
+    "Q14602",
+    "Q14695",
+    "Q15195",
+    "Q15486",
+    "Q15695",
+    "Q156A1",
+    "Q15940",
+    "Q16048",
+    "Q16473",
+    "Q16609",
+    "Q17RA5",
+    "Q17RH7",
+    "Q17RQ9",
+    "Q1A5X7",
+    "Q1AE95",
+    "Q1RN00",
+    "Q1T7F1",
+    "Q1W209",
+    "Q2M238",
+    "Q2M2E5",
+    "Q2M3A8",
+    "Q2TV78",
+    "Q309B1",
+    "Q30KQ1",
+    "Q30KQ8",
+    "Q32M92",
+    "Q3C1V9",
+    "Q3KNT7",
+    "Q3LI67",
+    "Q3MJ40",
+    "Q3SY05",
+    "Q3SYA9",
+    "Q3Y452",
+    "Q3ZLR7",
+    "Q494R0",
+    "Q495D7",
+    "Q495Y7",
+    "Q495Z4",
+    "Q499Y3",
+    "Q49A33",
+    "Q49AS3",
+    "Q4G0G2",
+    "Q4KMX7",
+    "Q4UJ75",
+    "Q4V326",
+    "Q4V348",
+    "Q4VX62",
+    "Q50KZ9",
+    "Q52LC2",
+    "Q52M58",
+    "Q52M75",
+    "Q538Z0",
+    "Q53S99",
+    "Q56UQ5",
+    "Q58A44",
+    "Q58FF3",
+    "Q58FF6",
+    "Q58FF7",
+    "Q58FF8",
+    "Q58FG0",
+    "Q58FG1",
+    "Q58G82",
+    "Q59GN2",
+    "Q5BKY6",
+    "Q5CZ79",
+    "Q5EBM4",
+    "Q5H9B9",
+    "Q5JNZ5",
+    "Q5JPF3",
+    "Q5JQD4",
+    "Q5JQF7",
+    "Q5JRS4",
+    "Q5K130",
+    "Q5K131",
+    "Q5NE16",
+    "Q5PR19",
+    "Q5QFB9",
+    "Q5SQ80",
+    "Q5SR53",
+    "Q5SY13",
+    "Q5SY68",
+    "Q5SY85",
+    "Q5T035",
+    "Q5T0J3",
+    "Q5T1J5",
+    "Q5T2Q4",
+    "Q5T3Y7",
+    "Q5T4H9",
+    "Q5T5F5",
+    "Q5T6M2",
+    "Q5T6R2",
+    "Q5T742",
+    "Q5T7N8",
+    "Q5T7P6",
+    "Q5T8R8",
+    "Q5TC04",
+    "Q5TEZ4",
+    "Q5TG53",
+    "Q5U4N7",
+    "Q5VSD8",
+    "Q5VSP4",
+    "Q5VST9",
+    "Q5VT28",
+    "Q5VT33",
+    "Q5VTE0",
+    "Q5VTU8",
+    "Q5VUJ5",
+    "Q5VUR7",
+    "Q5VVS0",
+    "Q5VZR4",
+    "Q5W150",
+    "Q5W188",
+    "Q5XLA6",
+    "Q5YKI7",
+    "Q63HN1",
+    "Q63ZY6",
+    "Q658K8",
+    "Q658T7",
+    "Q66K41",
+    "Q66K80",
+    "Q68D20",
+    "Q69383",
+    "Q69384",
+    "Q6A1A2",
+    "Q6AWC8",
+    "Q6DN03",
+    "Q6DRA6",
+    "Q6IE37",
+    "Q6IF36",
+    "Q6IN97",
+    "Q6MZN7",
+    "Q6NSI1",
+    "Q6NSW5",
+    "Q6NUI1",
+    "Q6NUR6",
+    "Q6NVV0",
+    "Q6NVV1",
+    "Q6NVV9",
+    "Q6NXN4",
+    "Q6P2S7",
+    "Q6P435",
+    "Q6P474",
+    "Q6P575",
+    "Q6PK57",
+    "Q6Q795",
+    "Q6QN14",
+    "Q6RFH8",
+    "Q6RVD6",
+    "Q6U949",
+    "Q6UWF5",
+    "Q6UXP3",
+    "Q6UXP9",
+    "Q6UXQ8",
+    "Q6UXR4",
+    "Q6UXR6",
+    "Q6UXR8",
+    "Q6UXT6",
+    "Q6UXU0",
+    "Q6UXV3",
+    "Q6UY13",
+    "Q6VEQ5",
+    "Q6W349",
+    "Q6XCG6",
+    "Q6XLA1",
+    "Q6XXX2",
+    "Q6ZMU1",
+    "Q6ZN03",
+    "Q6ZN68",
+    "Q6ZN92",
+    "Q6ZP68",
+    "Q6ZPA2",
+    "Q6ZPB5",
+    "Q6ZQT0",
+    "Q6ZQT7",
+    "Q6ZQV5",
+    "Q6ZQY7",
+    "Q6ZR03",
+    "Q6ZR54",
+    "Q6ZRF7",
+    "Q6ZRG5",
+    "Q6ZRM9",
+    "Q6ZRN7",
+    "Q6ZRP5",
+    "Q6ZRR7",
+    "Q6ZRU5",
+    "Q6ZRV3",
+    "Q6ZRX8",
+    "Q6ZS02",
+    "Q6ZS46",
+    "Q6ZS49",
+    "Q6ZS52",
+    "Q6ZS92",
+    "Q6ZSA8",
+    "Q6ZSB3",
+    "Q6ZSK4",
+    "Q6ZSN1",
+    "Q6ZSR3",
+    "Q6ZSR6",
+    "Q6ZSR9",
+    "Q6ZST2",
+    "Q6ZSU1",
+    "Q6ZSV7",
+    "Q6ZT62",
+    "Q6ZT77",
+    "Q6ZTB9",
+    "Q6ZTC4",
+    "Q6ZTI0",
+    "Q6ZTR6",
+    "Q6ZTU2",
+    "Q6ZTY9",
+    "Q6ZUF6",
+    "Q6ZUG5",
+    "Q6ZUL3",
+    "Q6ZUT4",
+    "Q6ZUV0",
+    "Q6ZV60",
+    "Q6ZV77",
+    "Q6ZV80",
+    "Q6ZVH6",
+    "Q6ZVL8",
+    "Q6ZVN7",
+    "Q6ZVQ6",
+    "Q6ZVS7",
+    "Q6ZVU0",
+    "Q6ZWC4",
+    "Q70YC4",
+    "Q719I0",
+    "Q71F78",
+    "Q71RG6",
+    "Q75LS8",
+    "Q75MW2",
+    "Q75NE6",
+    "Q7LDI9",
+    "Q7RTT3",
+    "Q7RTT4",
+    "Q7RTT6",
+    "Q7RTY3",
+    "Q7RTY7",
+    "Q7RTZ1",
+    "Q7Z2R9",
+    "Q7Z2Y8",
+    "Q7Z4B0",
+    "Q7Z5A4",
+    "Q7Z7M1",
+    "Q86SG4",
+    "Q86SH4",
+    "Q86SI9",
+    "Q86SQ3",
+    "Q86SY8",
+    "Q86T23",
+    "Q86TA4",
+    "Q86TU6",
+    "Q86U02",
+    "Q86U37",
+    "Q86UQ5",
+    "Q86UQ8",
+    "Q86X59",
+    "Q86XG9",
+    "Q86Y30",
+    "Q86YQ2",
+    "Q8IU53",
+    "Q8IUI4",
+    "Q8IV35",
+    "Q8IVE0",
+    "Q8IVG9",
+    "Q8IVJ8",
+    "Q8IVK1",
+    "Q8IWF7",
+    "Q8IWN6",
+    "Q8IX06",
+    "Q8IX95",
+    "Q8IYA2",
+    "Q8IYB0",
+    "Q8IZF7",
+    "Q8IZJ6",
+    "Q8IZM0",
+    "Q8IZP2",
+    "Q8IZS5",
+    "Q8MH63",
+    "Q8N0U6",
+    "Q8N0V1",
+    "Q8N1D0",
+    "Q8N1I8",
+    "Q8N1L1",
+    "Q8N1L4",
+    "Q8N1T3",
+    "Q8N1V8",
+    "Q8N1X5",
+    "Q8N1Y9",
+    "Q8N2A0",
+    "Q8N2B8",
+    "Q8N2C9",
+    "Q8N2X6",
+    "Q8N319",
+    "Q8N326",
+    "Q8N377",
+    "Q8N3U1",
+    "Q8N4M7",
+    "Q8N535",
+    "Q8N616",
+    "Q8N6C7",
+    "Q8N6U2",
+    "Q8N743",
+    "Q8N769",
+    "Q8N7H1",
+    "Q8N7P7",
+    "Q8N7Q2",
+    "Q8N7R0",
+    "Q8N7S6",
+    "Q8N7U9",
+    "Q8N7Y1",
+    "Q8N812",
+    "Q8N814",
+    "Q8N816",
+    "Q8N888",
+    "Q8N8A8",
+    "Q8N8C0",
+    "Q8N8D7",
+    "Q8N8E1",
+    "Q8N8G6",
+    "Q8N8H1",
+    "Q8N8I6",
+    "Q8N8J0",
+    "Q8N8P6",
+    "Q8N8V8",
+    "Q8N8Z3",
+    "Q8N910",
+    "Q8N976",
+    "Q8N9G6",
+    "Q8N9L7",
+    "Q8N9P0",
+    "Q8N9P6",
+    "Q8N9R0",
+    "Q8N9T2",
+    "Q8N9U9",
+    "Q8N9W7",
+    "Q8N9X3",
+    "Q8N9X5",
+    "Q8NA96",
+    "Q8NA97",
+    "Q8NAA6",
+    "Q8NAE3",
+    "Q8NAJ2",
+    "Q8NAP1",
+    "Q8NAQ8",
+    "Q8NBB2",
+    "Q8NBF4",
+    "Q8NBR9",
+    "Q8NBZ9",
+    "Q8NC38",
+    "Q8NCQ2",
+    "Q8NCQ3",
+    "Q8NCU1",
+    "Q8NDY4",
+    "Q8NEE0",
+    "Q8NF67",
+    "Q8NFD4",
+    "Q8NFI4",
+    "Q8NG04",
+    "Q8NGA2",
+    "Q8NGA4",
+    "Q8NGC2",
+    "Q8NGG1",
+    "Q8NGH6",
+    "Q8NGN7",
+    "Q8NGN8",
+    "Q8NGU1",
+    "Q8NGY7",
+    "Q8NH06",
+    "Q8NH08",
+    "Q8NH09",
+    "Q8NH63",
+    "Q8NH89",
+    "Q8NH95",
+    "Q8NHA6",
+    "Q8NHA8",
+    "Q8NHM4",
+    "Q8NHW5",
+    "Q8NI28",
+    "Q8TAF5",
+    "Q8TAI1",
+    "Q8TAT8",
+    "Q8TAV5",
+    "Q8TB33",
+    "Q8TBR4",
+    "Q8TBR5",
+    "Q8TCH9",
+    "Q8TCZ7",
+    "Q8TDU5",
+    "Q8TEV8",
+    "Q8TF27",
+    "Q8WTZ4",
+    "Q8WX39",
+    "Q8WXQ3",
+    "Q8WY50",
+    "Q8WZ26",
+    "Q8WZ33",
+    "Q8WZ69",
+    "Q8WZA6",
+    "Q8WZA8",
+    "Q8WZB0",
+    "Q902F8",
+    "Q902F9",
+    "Q92617",
+    "Q92637",
+    "Q92670",
+    "Q92771",
+    "Q92928",
+    "Q93083",
+    "Q969H9",
+    "Q96CB5",
+    "Q96FA7",
+    "Q96FQ7",
+    "Q96HZ7",
+    "Q96IR3",
+    "Q96IT6",
+    "Q96IX9",
+    "Q96KJ4",
+    "Q96KT0",
+    "Q96KT6",
+    "Q96KV6",
+    "Q96L11",
+    "Q96L14",
+    "Q96LM1",
+    "Q96LS8",
+    "Q96M15",
+    "Q96M19",
+    "Q96M42",
+    "Q96M66",
+    "Q96M78",
+    "Q96M85",
+    "Q96MC9",
+    "Q96MF0",
+    "Q96MF4",
+    "Q96MR7",
+    "Q96MT0",
+    "Q96MT4",
+    "Q96MU5",
+    "Q96MZ4",
+    "Q96N35",
+    "Q96N53",
+    "Q96N68",
+    "Q96NJ1",
+    "Q96NR7",
+    "Q96NS8",
+    "Q96P09",
+    "Q96P88",
+    "Q96PG1",
+    "Q96PQ5",
+    "Q96PS6",
+    "Q96PT4",
+    "Q96PY0",
+    "Q96R69",
+    "Q96R84",
+    "Q96T75",
+    "Q96TA0",
+    "Q99440",
+    "Q99463",
+    "Q99603",
+    "Q9BQD1",
+    "Q9BR46",
+    "Q9BRJ2",
+    "Q9BRP9",
+    "Q9BTD1",
+    "Q9BTK2",
+    "Q9BVR0",
+    "Q9BVW6",
+    "Q9BWJ2",
+    "Q9BXR3",
+    "Q9BXT5",
+    "Q9BXW3",
+    "Q9BXX2",
+    "Q9BY60",
+    "Q9BYX7",
+    "Q9BZ68",
+    "Q9BZ97",
+    "Q9BZ98",
+    "Q9BZA0",
+    "Q9BZA5",
+    "Q9BZK3",
+    "Q9BZK8",
+    "Q9BZP3",
+    "Q9BZS9",
+    "Q9GIP4",
+    "Q9GZL8",
+    "Q9GZW5",
+    "Q9H0A3",
+    "Q9H0H9",
+    "Q9H0P7",
+    "Q9H195",
+    "Q9H1B4",
+    "Q9H1L0",
+    "Q9H2H0",
+    "Q9H2J1",
+    "Q9H2U6",
+    "Q9H342",
+    "Q9H354",
+    "Q9H379",
+    "Q9H478",
+    "Q9H489",
+    "Q9H4G8",
+    "Q9H4R4",
+    "Q9H521",
+    "Q9H560",
+    "Q9H5J0",
+    "Q9H606",
+    "Q9H6N6",
+    "Q9H7B7",
+    "Q9H7L2",
+    "Q9H7T3",
+    "Q9H8Q6",
+    "Q9H8V8",
+    "Q9H8W2",
+    "Q9H8X3",
+    "Q9H963",
+    "Q9HAA7",
+    "Q9HAU6",
+    "Q9HBA9",
+    "Q9HBF5",
+    "Q9HBQ8",
+    "Q9HBX3",
+    "Q9HC47",
+    "Q9HD87",
+    "Q9HDB8",
+    "Q9HDB9",
+    "Q9N2J8",
+    "Q9N2K0",
+    "Q9NQ39",
+    "Q9NQA3",
+    "Q9NQF3",
+    "Q9NRI6",
+    "Q9NRI7",
+    "Q9NRJ1",
+    "Q9NRJ2",
+    "Q9NSJ1",
+    "Q9NSQ0",
+    "Q9NV39",
+    "Q9NVL1",
+    "Q9NX77",
+    "Q9NZ38",
+    "Q9NZH4",
+    "Q9NZY2",
+    "Q9P1A2",
+    "Q9P1A6",
+    "Q9P1C3",
+    "Q9P1D8",
+    "Q9P1G2",
+    "Q9P1J3",
+    "Q9P1P4",
+    "Q9P2X7",
+    "Q9P2X8",
+    "Q9QC07",
+    "Q9UBP8",
+    "Q9UF83",
+    "Q9UFV1",
+    "Q9UFV3",
+    "Q9UH64",
+    "Q9UHF3",
+    "Q9UHT4",
+    "Q9UHU1",
+    "Q9UI25",
+    "Q9UI54",
+    "Q9UI72",
+    "Q9UKH3",
+    "Q9UKT6",
+    "Q9UKY3",
+    "Q9UMZ3",
+    "Q9UN81",
+    "Q9UQG0",
+    "Q9WJR5",
+    "Q9XRX5",
+    "Q9Y3F1",
+    "Q9Y442",
+    "Q9Y471",
+    "Q9Y4D8",
+    "Q9Y4M8",
+    "Q9Y5M1",
+    "Q9Y6C7",
+    "Q9Y6I0",
+    "Q9Y6J3",
+    "Q9Y6Z4",
+    "Q9YNA8",
+    "S4R3P1",
+    "S4R3Y5"
+  ],
+  "gene_id_missing_entries": 1277,
+  "gene_id_multiple_entries": 99,
+  "gene_id_multiple_mappings": {
+    "A0A1B0GTR3": [
+      "100129239",
+      "100133053"
+    ],
+    "A1L429": [
+      "100132399",
+      "729422",
+      "729428",
+      "729431"
+    ],
+    "A8MYA2": [
+      "100130361",
+      "100132994"
+    ],
+    "B7ZAQ6": [
+      "51463",
+      "653519"
+    ],
+    "C9J1S8": [
+      "399939",
+      "729384"
+    ],
+    "E9PJI5": [
+      "101059938",
+      "101059953"
+    ],
+    "O14598": [
+      "353513",
+      "9084"
+    ],
+    "O14599": [
+      "442867",
+      "442868",
+      "9083"
+    ],
+    "O15263": [
+      "100289462",
+      "1673"
+    ],
+    "O60224": [
+      "548313",
+      "6759"
+    ],
+    "O75920": [
+      "728492",
+      "8293"
+    ],
+    "O76087": [
+      "2579",
+      "26748"
+    ],
+    "P02810": [
+      "5554",
+      "5555"
+    ],
+    "P04001": [
+      "101060233",
+      "2652"
+    ],
+    "P04908": [
+      "3012",
+      "8335"
+    ],
+    "P0C0L4": [
+      "720",
+      "721"
+    ],
+    "P0C0L5": [
+      "100293534",
+      "721"
+    ],
+    "P0C0S8": [
+      "8329",
+      "8330",
+      "8332",
+      "8336",
+      "8969"
+    ],
+    "P0C5Z0": [
+      "474381",
+      "83740"
+    ],
+    "P0CG08": [
+      "51463",
+      "653519"
+    ],
+    "P0CG34": [
+      "11013",
+      "286527"
+    ],
+    "P0DI82": [
+      "10597",
+      "6399"
+    ],
+    "P0DM63": [
+      "101059938",
+      "101059953"
+    ],
+    "P0DMM9": [
+      "445329",
+      "6818"
+    ],
+    "P0DMU3": [
+      "124903857",
+      "124905556"
+    ],
+    "P0DMV8": [
+      "3303",
+      "3304"
+    ],
+    "P0DMV9": [
+      "3303",
+      "3304"
+    ],
+    "P0DN86": [
+      "1082",
+      "93659",
+      "94115"
+    ],
+    "P0DP23": [
+      "801",
+      "805",
+      "808"
+    ],
+    "P0DP24": [
+      "801",
+      "805",
+      "808"
+    ],
+    "P0DP25": [
+      "801",
+      "805",
+      "808"
+    ],
+    "P0DPH9": [
+      "100129239",
+      "100133053"
+    ],
+    "P0DTE7": [
+      "276",
+      "277",
+      "278"
+    ],
+    "P0DTE8": [
+      "276",
+      "277",
+      "278"
+    ],
+    "P0DUB6": [
+      "276",
+      "277",
+      "278"
+    ],
+    "P12532": [
+      "1159",
+      "548596"
+    ],
+    "P13236": [
+      "388372",
+      "6351"
+    ],
+    "P16619": [
+      "414062",
+      "6349"
+    ],
+    "P23610": [
+      "474383",
+      "474384",
+      "8263"
+    ],
+    "P31941": [
+      "100913187",
+      "200315"
+    ],
+    "P35226": [
+      "100532731",
+      "648"
+    ],
+    "P36544": [
+      "1139",
+      "89832"
+    ],
+    "P43356": [
+      "266740",
+      "4101"
+    ],
+    "P43362": [
+      "4108",
+      "728269"
+    ],
+    "P47929": [
+      "3963",
+      "653499"
+    ],
+    "P50391": [
+      "100996758",
+      "5540"
+    ],
+    "P57059": [
+      "102724428",
+      "150094"
+    ],
+    "P59665": [
+      "1667",
+      "728358"
+    ],
+    "P62805": [
+      "121504",
+      "554313",
+      "8294",
+      "8359",
+      "8360",
+      "8361",
+      "8362",
+      "8363",
+      "8364",
+      "8365",
+      "8366",
+      "8367",
+      "8368",
+      "8370"
+    ],
+    "P62807": [
+      "3017",
+      "8339",
+      "8343",
+      "8344",
+      "8346",
+      "8347"
+    ],
+    "P68431": [
+      "8350",
+      "8351",
+      "8352",
+      "8353",
+      "8354",
+      "8355",
+      "8356",
+      "8357",
+      "8358",
+      "8968"
+    ],
+    "P69905": [
+      "3039",
+      "3040"
+    ],
+    "P78358": [
+      "1485",
+      "246100"
+    ],
+    "P81534": [
+      "414325",
+      "55894"
+    ],
+    "P84243": [
+      "3020",
+      "3021"
+    ],
+    "Q02080": [
+      "100271849",
+      "4207"
+    ],
+    "Q02325": [
+      "5342",
+      "5343"
+    ],
+    "Q08648": [
+      "10407",
+      "653423"
+    ],
+    "Q0WX57": [
+      "728369",
+      "728373",
+      "728379",
+      "728393",
+      "728400",
+      "728405",
+      "728419"
+    ],
+    "Q13066": [
+      "2574",
+      "645037"
+    ],
+    "Q15415": [
+      "159163",
+      "378951"
+    ],
+    "Q16385": [
+      "6757",
+      "727837"
+    ],
+    "Q16637": [
+      "6606",
+      "6607"
+    ],
+    "Q5HYR2": [
+      "63947",
+      "728656"
+    ],
+    "Q5JQC4": [
+      "100507170",
+      "255313",
+      "653282",
+      "728036",
+      "728042",
+      "728049",
+      "728062",
+      "728072",
+      "728075",
+      "728082",
+      "728090",
+      "728096"
+    ],
+    "Q5JQF8": [
+      "340529",
+      "645974"
+    ],
+    "Q6B8I1": [
+      "128854680",
+      "51207"
+    ],
+    "Q6FI13": [
+      "723790",
+      "8337"
+    ],
+    "Q6IEY1": [
+      "26683",
+      "729759",
+      "81399"
+    ],
+    "Q6P1K8": [
+      "728340",
+      "730394"
+    ],
+    "Q6PDA7": [
+      "10407",
+      "653423"
+    ],
+    "Q71DI3": [
+      "126961",
+      "333932",
+      "653604"
+    ],
+    "Q86YR6": [
+      "100288966",
+      "317754"
+    ],
+    "Q8IZN7": [
+      "245910",
+      "503614"
+    ],
+    "Q8IZP1": [
+      "414060",
+      "729873"
+    ],
+    "Q8N104": [
+      "245909",
+      "503841"
+    ],
+    "Q8NDB6": [
+      "29057",
+      "727866"
+    ],
+    "Q8NG35": [
+      "245908",
+      "504180"
+    ],
+    "Q8NGT9": [
+      "346528",
+      "402317"
+    ],
+    "Q8NHW4": [
+      "388372",
+      "9560"
+    ],
+    "Q8WTQ1": [
+      "140596",
+      "503618"
+    ],
+    "Q96JG8": [
+      "728239",
+      "81557"
+    ],
+    "Q96LI6": [
+      "159119",
+      "86614"
+    ],
+    "Q96QH8": [
+      "389852",
+      "729201"
+    ],
+    "Q99666": [
+      "729540",
+      "84220"
+    ],
+    "Q9BQ83": [
+      "548593",
+      "79008"
+    ],
+    "Q9BYU5": [
+      "728279",
+      "81872"
+    ],
+    "Q9GZY0": [
+      "56001",
+      "728343"
+    ],
+    "Q9H3K6": [
+      "552900",
+      "654483"
+    ],
+    "Q9HD64": [
+      "653067",
+      "653220"
+    ],
+    "Q9NS26": [
+      "30014",
+      "728712"
+    ],
+    "Q9UBD0": [
+      "100130086",
+      "100506164"
+    ],
+    "Q9UEU5": [
+      "100101629",
+      "26749",
+      "729408"
+    ],
+    "Q9ULZ0": [
+      "102724101",
+      "102724127",
+      "24150",
+      "653550",
+      "729264",
+      "729355"
+    ],
+    "Q9UND3": [
+      "642799",
+      "9284"
+    ],
+    "Q9Y5P2": [
+      "102723547",
+      "389903"
+    ],
+    "Q9Y6F7": [
+      "203611",
+      "9426"
+    ],
+    "Q9Y6F8": [
+      "253175",
+      "9085"
+    ],
+    "Q9Y6Q2": [
+      "11037",
+      "286749"
+    ]
+  },
+  "go_duplicate_entry_count": 0,
+  "go_duplicate_ids": {},
+  "go_refs_without_eco_array": 114057,
+  "go_refs_without_evidence_type": 0,
+  "go_zero_entries": 1056,
+  "issue_counts": {
+    "go_category_error": 0,
+    "go_cross_category_overlap": 0,
+    "go_union_mismatch": 0,
+    "invalid_go_id": 0,
+    "invalid_sequence_length": 0,
+    "json_tsv_mismatch": 0,
+    "sequence_value_length_mismatch": 0
+  },
+  "issues": [],
+  "json_tsv_mismatch_accession_count": 0,
+  "json_unique_accessions": 20431,
+  "multi_value_separator": "; (sorted unique values); missing identifiers are empty strings",
+  "only_json_accessions": [],
+  "only_tsv_accessions": [],
+  "passed": true,
+  "protein_name_definition": "JSON recommendedName.fullName.value; submissionNames fallback if present",
+  "raw_checksums": [
+    {
+      "file": "json/page_00001_e73b1ba8.json",
+      "sha256": "2a69c4ad5089cd260c853eea4d50a5c91642bc2b90c92dccf1bb68c4488dc944"
+    },
+    {
+      "file": "json/page_00002_2846909f.json",
+      "sha256": "877e81abb856758dd977673ef2a662df3664f9c30f07a08363a9a84bc9338b29"
+    },
+    {
+      "file": "json/page_00003_849742f8.json",
+      "sha256": "89c35ef189a4cf2a17d5dc8d8203e22cc408bd79f2c3f6f5a47a94ca926063a1"
+    },
+    {
+      "file": "json/page_00004_0568fafe.json",
+      "sha256": "ab78389fbce349cebe3449ba0eae3c31c37c935993875bb7891eca4cfd86ac18"
+    },
+    {
+      "file": "json/page_00005_e5fdede6.json",
+      "sha256": "367bc3496c8fa2e03e8475023d54e82df154f84af84c954dc3709e527c464290"
+    },
+    {
+      "file": "json/page_00006_f505d4a1.json",
+      "sha256": "c79928d817aefd88d376058dbbdf08489032460f7c83f4d3238952aa02bbe4d6"
+    },
+    {
+      "file": "json/page_00007_f5905df7.json",
+      "sha256": "f00a6d9e56ffdfdbcf02e1f4c12fcaeae895d7ddf377403e90e49953db93502d"
+    },
+    {
+      "file": "json/page_00008_a80660a9.json",
+      "sha256": "2227947479914e4e6653e5578bc994386bbb3846f364c68ffc5fc73e1ef5107c"
+    },
+    {
+      "file": "json/page_00009_768fdbed.json",
+      "sha256": "83c2dcbb3528eafc596851acda35b61c8e96fdb02585a48639f6a403cfa17b48"
+    },
+    {
+      "file": "json/page_00010_5f635184.json",
+      "sha256": "4490f5d9818e1827acc038d690bb9e5c5b06071f20ab376987386163b868269a"
+    },
+    {
+      "file": "json/page_00011_4a637945.json",
+      "sha256": "5090b8ed9210afe87512988aa1975688726961e33b74fd0684534dcc7af9e53e"
+    },
+    {
+      "file": "json/page_00012_c90b59b4.json",
+      "sha256": "d1e5c6d72899302de8bb00d03106f795736229d43f0262f0a47454247ffe596c"
+    },
+    {
+      "file": "json/page_00013_892b436b.json",
+      "sha256": "35f6a8c282136758edede8c6e87d16b03681d5a43b934e63d10cfad4e5dcfaef"
+    },
+    {
+      "file": "json/page_00014_244fd724.json",
+      "sha256": "c129c1fc6b0277539cd268b15dccf0e468a15282fd66a1ceb0dba107d4d31d51"
+    },
+    {
+      "file": "json/page_00015_7a51505d.json",
+      "sha256": "aa94c489dbc7e384fc8c543f797c4142f1187d319f65c71bf6c3a2c2d753258e"
+    },
+    {
+      "file": "json/page_00016_eb078b1b.json",
+      "sha256": "ba8a2b4531f67ab12866a4cb9a1810cb407ffca4ebd9ecdf58713868215b50a9"
+    },
+    {
+      "file": "json/page_00017_05cf03c4.json",
+      "sha256": "3355c0aafc5c63253aeb41854e02b31fc17e9267035f67429ce27b945923bc8d"
+    },
+    {
+      "file": "json/page_00018_856993fd.json",
+      "sha256": "eb2f126607c96a1147aebc80acf460c5c9e14793e5fe23b598f913ffbd848790"
+    },
+    {
+      "file": "json/page_00019_778c8781.json",
+      "sha256": "5a730f0bbadbd57b2c1dc9b3732a5349f165f042c24c9d37ce842fe95f0c7282"
+    },
+    {
+      "file": "json/page_00020_cb5ae41d.json",
+      "sha256": "0f2720a58d6a1e1cacc361c076d1d324672280e2fd7eb8b117216f345a4dd525"
+    },
+    {
+      "file": "json/page_00021_d1975c5b.json",
+      "sha256": "af5584eb00530a20262a0c024e5a17dbd7b1fe52e4e34b3d9bc4fa010cf8c916"
+    },
+    {
+      "file": "json/page_00022_e0b44049.json",
+      "sha256": "e3518a21d15cd7701861f74f571e71660d727214b88840aa1364a1e0db2a38da"
+    },
+    {
+      "file": "json/page_00023_10de93fa.json",
+      "sha256": "3cb3c39426ad72a59c08a694bcd96a89145396a1aa6c7cc73112db2efb0172dd"
+    },
+    {
+      "file": "json/page_00024_7e75c162.json",
+      "sha256": "dd6a1870fb83bde5ede31fc6ba67d5651465bf5943e803852c128675c950dcda"
+    },
+    {
+      "file": "json/page_00025_36df56cf.json",
+      "sha256": "fe4d5791a6b13a289b0c1398126ab7f33c1e285bb842a060afd98c5405151a53"
+    },
+    {
+      "file": "json/page_00026_da5da6be.json",
+      "sha256": "61f9ffe46a1b82d6f3bd886faf1c530e7e06d0af5c33244dff2fa9ae82e3da21"
+    },
+    {
+      "file": "json/page_00027_68867ff3.json",
+      "sha256": "46512a263fed776342fcc1e0a3ab9bb3e6fbff90d362c94c2b7a373498400152"
+    },
+    {
+      "file": "json/page_00028_e2cff9d2.json",
+      "sha256": "35eb866a0a0709fb187d1d7d9747e90b60a9caf12ed72bed4d7abaa831270902"
+    },
+    {
+      "file": "json/page_00029_69f90800.json",
+      "sha256": "1702c8777fa6f74ecb6832e77077565ccc70d87255dcebeeb7db2c103ee25903"
+    },
+    {
+      "file": "json/page_00030_1c21bab1.json",
+      "sha256": "57471ff0dfadf72309eec7103132ed691988502897de401f1331ce78973cb3a2"
+    },
+    {
+      "file": "json/page_00031_a9f35f34.json",
+      "sha256": "57ef9ee332eeb6e2cddbde5c23d6980102ecf40397a20648d2e114ee2f944001"
+    },
+    {
+      "file": "json/page_00032_14b54f02.json",
+      "sha256": "a02d69aa4eacc522e15f88f556f7b9623547602099013843374d87e37738f2cd"
+    },
+    {
+      "file": "json/page_00033_12269620.json",
+      "sha256": "1ed7800dfa84d667ca37839651040cb08566aeee0f89a0c006eec6bf3ac70244"
+    },
+    {
+      "file": "json/page_00034_7cfa7751.json",
+      "sha256": "a9dd58d37e2686940186289c2c04baf74de481d02453ff31c09c8b908f3d2a3b"
+    },
+    {
+      "file": "json/page_00035_9eb255c4.json",
+      "sha256": "33575ca3dba8d1aecdd8eb6b99898a4355a16a2c3e7785e4de79a0b558a6132a"
+    },
+    {
+      "file": "json/page_00036_71eac93d.json",
+      "sha256": "9c6a03358f93cbfe3c1059c97e0a95616196247918995836d7c9c2ab41c08a9f"
+    },
+    {
+      "file": "json/page_00037_d8e40dd1.json",
+      "sha256": "02d541c8bf3fc383299410b1cc7a31c69515f64d1bc0d5ed2b1edc2f50ac0182"
+    },
+    {
+      "file": "json/page_00038_4a51e2a6.json",
+      "sha256": "68ebbf91cf4869d2973257456f020fe78a3a3cbb88aa530705c50dfb27c5f2a3"
+    },
+    {
+      "file": "json/page_00039_829a1c75.json",
+      "sha256": "3eaf163a8041b6e14b155fa4b52170cef4f74c70bb32472f4b0555dfb7874002"
+    },
+    {
+      "file": "json/page_00040_54b2e6d4.json",
+      "sha256": "6f29315d9a08dcaec36a82fd59c33987c9e45fdebee4c74856c68665c1e4fb3b"
+    },
+    {
+      "file": "json/page_00041_d3189f54.json",
+      "sha256": "7e5d18138ccc47c309051485a2addd0e0990df96379737a8f24dda2b8709e1e3"
+    },
+    {
+      "file": "tsv/page_00001_686691d6.tsv",
+      "sha256": "195896fd86c3240702d92bcaba38c7502fb3d5bad8ba0849e86b9696590ce373"
+    },
+    {
+      "file": "tsv/page_00002_e7e7dd97.tsv",
+      "sha256": "2801895630d5d55c4330c911e5e04c7464abeb998cfcd27e5941283c3075d4e1"
+    },
+    {
+      "file": "tsv/page_00003_42cbff3f.tsv",
+      "sha256": "defe9309b682b9a6ae73247bca55c2bf64ca66a267543db12df53154006d2d3e"
+    },
+    {
+      "file": "tsv/page_00004_3d386d46.tsv",
+      "sha256": "0191dc6201e5659c4a5cbd99a4e8deffeec28a58fb2f2027b2fd7fd1d09018a3"
+    },
+    {
+      "file": "tsv/page_00005_b2e8898a.tsv",
+      "sha256": "42ad7c8e6e45a33cc4cd1175c3e90c752c089b876add3262ed399ae7aba648ae"
+    },
+    {
+      "file": "tsv/page_00006_8ba9ec40.tsv",
+      "sha256": "9ae0ad4ea33ce4a22c9b34223fe90cf36c3e064ab4932b30f516ec74d9593004"
+    },
+    {
+      "file": "tsv/page_00007_b6362815.tsv",
+      "sha256": "3c8b9f489c444c88f2b88ab748cde8b9dd49c838df8bbba6ddb690337459f9c7"
+    },
+    {
+      "file": "tsv/page_00008_dbf8c2f9.tsv",
+      "sha256": "6121a0c7062e0b906563a43c1a584301b4b4f8bc799067ad97ffc2687f4b3d3b"
+    },
+    {
+      "file": "tsv/page_00009_845d10f0.tsv",
+      "sha256": "ca6e04a216a35cd9f9313561da25f91a824bff6cfe9dbdcfd721ec77b17843fe"
+    },
+    {
+      "file": "tsv/page_00010_1f4a0fd7.tsv",
+      "sha256": "e1d238432124d9820c02a44f3204ce00d9bb853792007f750228a51d61cd239f"
+    },
+    {
+      "file": "tsv/page_00011_0711d203.tsv",
+      "sha256": "15860d37c2470f46d530b51f70363db1c518d1023896c6a4beefe50ab6e09dc4"
+    },
+    {
+      "file": "tsv/page_00012_e61299f2.tsv",
+      "sha256": "c41c7c64c1e87d09683f6897e7e73c6011d934a49f216afed11729b14cd873e9"
+    },
+    {
+      "file": "tsv/page_00013_bb0bd4b5.tsv",
+      "sha256": "ed4db7076b09c8ce05cf5504c5e25c127c4ff88e8d54dfe1490cfbe984d98269"
+    },
+    {
+      "file": "tsv/page_00014_0cfcb662.tsv",
+      "sha256": "8d04e940d05c25fb38b55f020c8056512c0a6a3d213a0b5a9f8d70c727adeb7b"
+    },
+    {
+      "file": "tsv/page_00015_38770ed7.tsv",
+      "sha256": "37bb1bef7b7f13ad135bb74eda2f926b18e88f2ba48e40e56e415878046e75ac"
+    },
+    {
+      "file": "tsv/page_00016_f3ab5fd7.tsv",
+      "sha256": "560fa94b8daa9a0c5b3399a10f13e790f173608293de5f60a1edc11f9beb20b5"
+    },
+    {
+      "file": "tsv/page_00017_0f2d6726.tsv",
+      "sha256": "7eb671f70cf0766000d5f232d92beee7de3c79ab8d6db00f3c9ee62778d45391"
+    },
+    {
+      "file": "tsv/page_00018_f20e19e0.tsv",
+      "sha256": "6656fda0662cab39c1a7bd2c0b3295924270102cfc4e63e62391a1ac5d82aab3"
+    },
+    {
+      "file": "tsv/page_00019_e497f8ff.tsv",
+      "sha256": "fc2493c5e90fcde1de450d663d54496f92a406d34000292fb63239dbba10de5e"
+    },
+    {
+      "file": "tsv/page_00020_f1e49b75.tsv",
+      "sha256": "445c20a567500b2a5ba7187566d83536c7724a873cac42b8f84b133e86852f26"
+    },
+    {
+      "file": "tsv/page_00021_eee1ee2c.tsv",
+      "sha256": "1113dab2e38b833927964aedc36f80566cc01393b0acb8cf605c70110c093e09"
+    },
+    {
+      "file": "tsv/page_00022_ea178073.tsv",
+      "sha256": "23fdb9d4dcdb70b7137af98a900a2c6ac23f1758a1b6658194ea1c231cb826c3"
+    },
+    {
+      "file": "tsv/page_00023_db42b68c.tsv",
+      "sha256": "15045e1e81c8b52fc2f02583093cf6a52af364b2c106124bf688621ccd5fb61d"
+    },
+    {
+      "file": "tsv/page_00024_bb52dde1.tsv",
+      "sha256": "191f20499003dc88e580b7716ba4ea8822af4f1283161bfbb918c73877305521"
+    },
+    {
+      "file": "tsv/page_00025_5a82035b.tsv",
+      "sha256": "124e98a319ff3be28e3347a2323842f47e04af9a6c5223ed94f455fa6bab0f77"
+    },
+    {
+      "file": "tsv/page_00026_01fd5abb.tsv",
+      "sha256": "709882e32f347e4f0c9969d558c49ea8d0a078566628c757f2e380ccb468303c"
+    },
+    {
+      "file": "tsv/page_00027_0e4b986a.tsv",
+      "sha256": "0716a27acbcd71a1bbd73a09d5943066f32514999c7299fd755e0583ba786d4a"
+    },
+    {
+      "file": "tsv/page_00028_0515cff4.tsv",
+      "sha256": "54032abe2384dea893b255c0be8b303782ce19e34bb4c9504f7926faf1df93bd"
+    },
+    {
+      "file": "tsv/page_00029_761c0c83.tsv",
+      "sha256": "57a3e1a6f9e2f131a86e46f3fb92d3d44d4f490bdf3ac6a0844719600dabd5f8"
+    },
+    {
+      "file": "tsv/page_00030_7da164b0.tsv",
+      "sha256": "65ea7834f6e42dace496fca7a0396404144ab0ad99c86dedfc17966bb60a13d9"
+    },
+    {
+      "file": "tsv/page_00031_df47718b.tsv",
+      "sha256": "a1d7b2ce41d11b8eea319cecb36278463941618f7812aaeee85e19ceba5fc585"
+    },
+    {
+      "file": "tsv/page_00032_53b7d710.tsv",
+      "sha256": "ccd477482f64d152f3243af582fb15e0ea9628d9dc8b81c26fde689fe87d4883"
+    },
+    {
+      "file": "tsv/page_00033_a004355f.tsv",
+      "sha256": "fd5f0c66506880eb5c54ed49c2bdfe365aeb7a5a7699dffe2a9a9dc469d1d041"
+    },
+    {
+      "file": "tsv/page_00034_9fbe0b18.tsv",
+      "sha256": "4635c281fb2f1db457684b9223642c81656356cb4080e490a0796b3ee8b8f116"
+    },
+    {
+      "file": "tsv/page_00035_2b4fa21f.tsv",
+      "sha256": "25f77ddb6586485a1c4ec345e4586040387f9a054fbc68fb0701a042706f1f22"
+    },
+    {
+      "file": "tsv/page_00036_62801420.tsv",
+      "sha256": "f238fa5f25f287d82197fef3c60c0af29acef88628e158ed2a8ed3cc78bd39de"
+    },
+    {
+      "file": "tsv/page_00037_70979d8d.tsv",
+      "sha256": "5b635e5cfa8f37765ab7ea9b5e00f10963c5c24292797f17ca9a5c5465286fc6"
+    },
+    {
+      "file": "tsv/page_00038_15ede5e1.tsv",
+      "sha256": "b3ed9eb731bf0fbd630b4200ce5cca7d176bd040275dd72c1a40e936b3ca7951"
+    },
+    {
+      "file": "tsv/page_00039_ba41cb43.tsv",
+      "sha256": "e521c24ca66572051f245c918ce1e7f7558d4d204a6ddf4d5621d01df669523c"
+    },
+    {
+      "file": "tsv/page_00040_30744a55.tsv",
+      "sha256": "7a4c5b92da79c91d3f6c0b074097e3279844d33750d6e54d826473dbb4ca8014"
+    },
+    {
+      "file": "tsv/page_00041_f859889b.tsv",
+      "sha256": "df1e27f03c50e4cd3a928e47bae1d5bb79075c4a81a3b962efe655c9f3c76f7e"
+    }
+  ],
+  "shared_gene_id_count": 52,
+  "shared_gene_ids": {
+    "100129239": [
+      "A0A1B0GTR3",
+      "P0DPH9"
+    ],
+    "100133053": [
+      "A0A1B0GTR3",
+      "P0DPH9"
+    ],
+    "100996758": [
+      "P0DQD5",
+      "P50391"
+    ],
+    "101059938": [
+      "E9PJI5",
+      "P0DM63"
+    ],
+    "101059953": [
+      "E9PJI5",
+      "P0DM63"
+    ],
+    "101060233": [
+      "P04001",
+      "P0DN78"
+    ],
+    "1029": [
+      "P42771",
+      "Q8N726"
+    ],
+    "10326": [
+      "O00241",
+      "Q5TFQ8"
+    ],
+    "10407": [
+      "Q08648",
+      "Q6PDA7"
+    ],
+    "1523": [
+      "P39880",
+      "Q13948"
+    ],
+    "163590": [
+      "Q8NFQ8",
+      "Q9H496"
+    ],
+    "2074": [
+      "P0DP91",
+      "Q03468"
+    ],
+    "23499": [
+      "O94854",
+      "Q9UPN3"
+    ],
+    "26748": [
+      "O76087",
+      "P0CL82"
+    ],
+    "27113": [
+      "Q96PG8",
+      "Q9BXH1"
+    ],
+    "27433": [
+      "Q5JU69",
+      "Q8N2E6"
+    ],
+    "276": [
+      "P0DTE7",
+      "P0DTE8",
+      "P0DUB6"
+    ],
+    "277": [
+      "P0DTE7",
+      "P0DTE8",
+      "P0DUB6"
+    ],
+    "2778": [
+      "O95467",
+      "P63092",
+      "P84996",
+      "Q5JWF2"
+    ],
+    "278": [
+      "P0DTE7",
+      "P0DTE8",
+      "P0DUB6"
+    ],
+    "286527": [
+      "P0CG34",
+      "P0CG35"
+    ],
+    "3017": [
+      "P58876",
+      "P62807"
+    ],
+    "3303": [
+      "P0DMV8",
+      "P0DMV9"
+    ],
+    "3304": [
+      "P0DMV8",
+      "P0DMV9"
+    ],
+    "388372": [
+      "P13236",
+      "Q8NHW4"
+    ],
+    "414060": [
+      "Q6IPX1",
+      "Q8IZP1"
+    ],
+    "4338": [
+      "O96007",
+      "O96033"
+    ],
+    "445329": [
+      "P0DMM9",
+      "P0DMN0"
+    ],
+    "4666": [
+      "E9PAV3",
+      "Q13765"
+    ],
+    "51082": [
+      "P0DPB5",
+      "P0DPB6"
+    ],
+    "51207": [
+      "Q6B8I1",
+      "Q9UII6"
+    ],
+    "51463": [
+      "B7ZAQ6",
+      "P0CG08"
+    ],
+    "5621": [
+      "F7VJQ1",
+      "P04156"
+    ],
+    "6399": [
+      "P0DI81",
+      "P0DI82"
+    ],
+    "642799": [
+      "E9PIF3",
+      "Q9UND3"
+    ],
+    "653423": [
+      "Q08648",
+      "Q6PDA7"
+    ],
+    "653519": [
+      "B7ZAQ6",
+      "P0CG08"
+    ],
+    "7112": [
+      "P42166",
+      "P42167"
+    ],
+    "721": [
+      "P0C0L4",
+      "P0C0L5"
+    ],
+    "728279": [
+      "Q9BYT5",
+      "Q9BYU5"
+    ],
+    "796": [
+      "P01258",
+      "P06881"
+    ],
+    "801": [
+      "P0DP23",
+      "P0DP24",
+      "P0DP25"
+    ],
+    "805": [
+      "P0DP23",
+      "P0DP24",
+      "P0DP25"
+    ],
+    "808": [
+      "P0DP23",
+      "P0DP24",
+      "P0DP25"
+    ],
+    "81488": [
+      "P0CAP2",
+      "Q6EEV4"
+    ],
+    "83871": [
+      "P0DI83",
+      "Q9BZG1"
+    ],
+    "89832": [
+      "P36544",
+      "Q494W8"
+    ],
+    "9369": [
+      "Q9HDB5",
+      "Q9Y4C0"
+    ],
+    "9378": [
+      "P58400",
+      "Q9ULB1"
+    ],
+    "9379": [
+      "P58401",
+      "Q9P2S2"
+    ],
+    "9465": [
+      "O43687",
+      "Q9P0M2"
+    ],
+    "9910": [
+      "B7ZAP0",
+      "Q5R372"
+    ]
+  },
+  "snapshot": {
+    "release": "2026_03",
+    "release_date": "02-September-2026",
+    "total_results": 20431
+  },
+  "source_manifest_sha256": "41354173ac97366ba16ed2aa8fb0143d68da686ea661d95af1d324e5d2464fe5",
+  "tsv_unique_accessions": 20431
+}

@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "purpose": "Exact large raw response files omitted from the upload ZIP; restore from the public repository with SHA256 verification.",
+  "repository": "arnixs115/protein-go-research",
+  "commit": "7d7cc33078aa8b684534f03ef339b46789f01a14",
+  "file_count": 83,
+  "total_bytes": 177808088,
+  "files": [
+    {
+      "local_path": "data/raw/full_20261030/json/page_00001_58965bbc.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00001_58965bbc.json",
+      "sha256": "2a69c4ad5089cd260c853eea4d50a5c91642bc2b90c92dccf1bb68c4488dc944",
+      "bytes": 5279703
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00001_e73b1ba8.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00001_e73b1ba8.json",
+      "sha256": "2a69c4ad5089cd260c853eea4d50a5c91642bc2b90c92dccf1bb68c4488dc944",
+      "bytes": 5279703
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00002_2846909f.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00002_2846909f.json",
+      "sha256": "877e81abb856758dd977673ef2a662df3664f9c30f07a08363a9a84bc9338b29",
+      "bytes": 6174318
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00003_849742f8.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00003_849742f8.json",
+      "sha256": "89c35ef189a4cf2a17d5dc8d8203e22cc408bd79f2c3f6f5a47a94ca926063a1",
+      "bytes": 5255168
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00004_0568fafe.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00004_0568fafe.json",
+      "sha256": "ab78389fbce349cebe3449ba0eae3c31c37c935993875bb7891eca4cfd86ac18",
+      "bytes": 4362504
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00005_e5fdede6.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00005_e5fdede6.json",
+      "sha256": "367bc3496c8fa2e03e8475023d54e82df154f84af84c954dc3709e527c464290",
+      "bytes": 4544361
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00006_f505d4a1.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00006_f505d4a1.json",
+      "sha256": "c79928d817aefd88d376058dbbdf08489032460f7c83f4d3238952aa02bbe4d6",
+      "bytes": 4669118
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00007_f5905df7.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00007_f5905df7.json",
+      "sha256": "f00a6d9e56ffdfdbcf02e1f4c12fcaeae895d7ddf377403e90e49953db93502d",
+      "bytes": 6037129
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00008_a80660a9.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00008_a80660a9.json",
+      "sha256": "2227947479914e4e6653e5578bc994386bbb3846f364c68ffc5fc73e1ef5107c",
+      "bytes": 6005542
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00009_768fdbed.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00009_768fdbed.json",
+      "sha256": "83c2dcbb3528eafc596851acda35b61c8e96fdb02585a48639f6a403cfa17b48",
+      "bytes": 4610190
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00010_5f635184.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00010_5f635184.json",
+      "sha256": "4490f5d9818e1827acc038d690bb9e5c5b06071f20ab376987386163b868269a",
+      "bytes": 4355191
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00011_4a637945.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00011_4a637945.json",
+      "sha256": "5090b8ed9210afe87512988aa1975688726961e33b74fd0684534dcc7af9e53e",
+      "bytes": 4671532
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00012_c90b59b4.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00012_c90b59b4.json",
+      "sha256": "d1e5c6d72899302de8bb00d03106f795736229d43f0262f0a47454247ffe596c",
+      "bytes": 4821384
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00013_892b436b.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00013_892b436b.json",
+      "sha256": "35f6a8c282136758edede8c6e87d16b03681d5a43b934e63d10cfad4e5dcfaef",
+      "bytes": 6030636
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00014_244fd724.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00014_244fd724.json",
+      "sha256": "c129c1fc6b0277539cd268b15dccf0e468a15282fd66a1ceb0dba107d4d31d51",
+      "bytes": 6335155
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00015_7a51505d.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00015_7a51505d.json",
+      "sha256": "aa94c489dbc7e384fc8c543f797c4142f1187d319f65c71bf6c3a2c2d753258e",
+      "bytes": 4942844
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00016_eb078b1b.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00016_eb078b1b.json",
+      "sha256": "ba8a2b4531f67ab12866a4cb9a1810cb407ffca4ebd9ecdf58713868215b50a9",
+      "bytes": 4498878
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00017_05cf03c4.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00017_05cf03c4.json",
+      "sha256": "3355c0aafc5c63253aeb41854e02b31fc17e9267035f67429ce27b945923bc8d",
+      "bytes": 4661240
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00018_856993fd.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00018_856993fd.json",
+      "sha256": "eb2f126607c96a1147aebc80acf460c5c9e14793e5fe23b598f913ffbd848790",
+      "bytes": 4958222
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00019_778c8781.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00019_778c8781.json",
+      "sha256": "5a730f0bbadbd57b2c1dc9b3732a5349f165f042c24c9d37ce842fe95f0c7282",
+      "bytes": 6629526
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00020_cb5ae41d.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00020_cb5ae41d.json",
+      "sha256": "0f2720a58d6a1e1cacc361c076d1d324672280e2fd7eb8b117216f345a4dd525",
+      "bytes": 6181262
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00021_d1975c5b.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00021_d1975c5b.json",
+      "sha256": "af5584eb00530a20262a0c024e5a17dbd7b1fe52e4e34b3d9bc4fa010cf8c916",
+      "bytes": 4407065
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00022_e0b44049.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00022_e0b44049.json",
+      "sha256": "e3518a21d15cd7701861f74f571e71660d727214b88840aa1364a1e0db2a38da",
+      "bytes": 4445811
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00023_10de93fa.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00023_10de93fa.json",
+      "sha256": "3cb3c39426ad72a59c08a694bcd96a89145396a1aa6c7cc73112db2efb0172dd",
+      "bytes": 4543441
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00024_7e75c162.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00024_7e75c162.json",
+      "sha256": "dd6a1870fb83bde5ede31fc6ba67d5651465bf5943e803852c128675c950dcda",
+      "bytes": 5053373
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00025_36df56cf.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00025_36df56cf.json",
+      "sha256": "fe4d5791a6b13a289b0c1398126ab7f33c1e285bb842a060afd98c5405151a53",
+      "bytes": 6380221
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00026_da5da6be.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00026_da5da6be.json",
+      "sha256": "61f9ffe46a1b82d6f3bd886faf1c530e7e06d0af5c33244dff2fa9ae82e3da21",
+      "bytes": 5693877
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00027_68867ff3.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00027_68867ff3.json",
+      "sha256": "46512a263fed776342fcc1e0a3ab9bb3e6fbff90d362c94c2b7a373498400152",
+      "bytes": 4157282
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00028_e2cff9d2.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00028_e2cff9d2.json",
+      "sha256": "35eb866a0a0709fb187d1d7d9747e90b60a9caf12ed72bed4d7abaa831270902",
+      "bytes": 4353419
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00029_69f90800.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00029_69f90800.json",
+      "sha256": "1702c8777fa6f74ecb6832e77077565ccc70d87255dcebeeb7db2c103ee25903",
+      "bytes": 4620178
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00030_1c21bab1.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00030_1c21bab1.json",
+      "sha256": "57471ff0dfadf72309eec7103132ed691988502897de401f1331ce78973cb3a2",
+      "bytes": 3024405
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00031_a9f35f34.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00031_a9f35f34.json",
+      "sha256": "57ef9ee332eeb6e2cddbde5c23d6980102ecf40397a20648d2e114ee2f944001",
+      "bytes": 2151771
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00032_14b54f02.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00032_14b54f02.json",
+      "sha256": "a02d69aa4eacc522e15f88f556f7b9623547602099013843374d87e37738f2cd",
+      "bytes": 2098768
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00033_12269620.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00033_12269620.json",
+      "sha256": "1ed7800dfa84d667ca37839651040cb08566aeee0f89a0c006eec6bf3ac70244",
+      "bytes": 2198237
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00034_7cfa7751.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00034_7cfa7751.json",
+      "sha256": "a9dd58d37e2686940186289c2c04baf74de481d02453ff31c09c8b908f3d2a3b",
+      "bytes": 1614002
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00035_9eb255c4.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00035_9eb255c4.json",
+      "sha256": "33575ca3dba8d1aecdd8eb6b99898a4355a16a2c3e7785e4de79a0b558a6132a",
+      "bytes": 1520339
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00036_71eac93d.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00036_71eac93d.json",
+      "sha256": "9c6a03358f93cbfe3c1059c97e0a95616196247918995836d7c9c2ab41c08a9f",
+      "bytes": 1512256
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00037_d8e40dd1.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00037_d8e40dd1.json",
+      "sha256": "02d541c8bf3fc383299410b1cc7a31c69515f64d1bc0d5ed2b1edc2f50ac0182",
+      "bytes": 1561429
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00038_4a51e2a6.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00038_4a51e2a6.json",
+      "sha256": "68ebbf91cf4869d2973257456f020fe78a3a3cbb88aa530705c50dfb27c5f2a3",
+      "bytes": 1350428
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00039_829a1c75.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00039_829a1c75.json",
+      "sha256": "3eaf163a8041b6e14b155fa4b52170cef4f74c70bb32472f4b0555dfb7874002",
+      "bytes": 1101621
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00040_54b2e6d4.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00040_54b2e6d4.json",
+      "sha256": "6f29315d9a08dcaec36a82fd59c33987c9e45fdebee4c74856c68665c1e4fb3b",
+      "bytes": 1106889
+    },
+    {
+      "local_path": "data/raw/full_20261030/json/page_00041_d3189f54.json",
+      "repository_path": "protein-go-research/data/raw/full_20261030/json/page_00041_d3189f54.json",
+      "sha256": "7e5d18138ccc47c309051485a2addd0e0990df96379737a8f24dda2b8709e1e3",
+      "bytes": 629763
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00001_686691d6.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00001_686691d6.tsv",
+      "sha256": "195896fd86c3240702d92bcaba38c7502fb3d5bad8ba0849e86b9696590ce373",
+      "bytes": 134749
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00002_e7e7dd97.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00002_e7e7dd97.tsv",
+      "sha256": "2801895630d5d55c4330c911e5e04c7464abeb998cfcd27e5941283c3075d4e1",
+      "bytes": 160045
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00003_42cbff3f.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00003_42cbff3f.tsv",
+      "sha256": "defe9309b682b9a6ae73247bca55c2bf64ca66a267543db12df53154006d2d3e",
+      "bytes": 120618
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00004_3d386d46.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00004_3d386d46.tsv",
+      "sha256": "0191dc6201e5659c4a5cbd99a4e8deffeec28a58fb2f2027b2fd7fd1d09018a3",
+      "bytes": 94584
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00005_b2e8898a.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00005_b2e8898a.tsv",
+      "sha256": "42ad7c8e6e45a33cc4cd1175c3e90c752c089b876add3262ed399ae7aba648ae",
+      "bytes": 108193
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00006_8ba9ec40.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00006_8ba9ec40.tsv",
+      "sha256": "9ae0ad4ea33ce4a22c9b34223fe90cf36c3e064ab4932b30f516ec74d9593004",
+      "bytes": 108111
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00007_b6362815.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00007_b6362815.tsv",
+      "sha256": "3c8b9f489c444c88f2b88ab748cde8b9dd49c838df8bbba6ddb690337459f9c7",
+      "bytes": 147549
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00008_dbf8c2f9.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00008_dbf8c2f9.tsv",
+      "sha256": "6121a0c7062e0b906563a43c1a584301b4b4f8bc799067ad97ffc2687f4b3d3b",
+      "bytes": 152798
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00009_845d10f0.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00009_845d10f0.tsv",
+      "sha256": "ca6e04a216a35cd9f9313561da25f91a824bff6cfe9dbdcfd721ec77b17843fe",
+      "bytes": 100819
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00010_1f4a0fd7.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00010_1f4a0fd7.tsv",
+      "sha256": "e1d238432124d9820c02a44f3204ce00d9bb853792007f750228a51d61cd239f",
+      "bytes": 96489
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00011_0711d203.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00011_0711d203.tsv",
+      "sha256": "15860d37c2470f46d530b51f70363db1c518d1023896c6a4beefe50ab6e09dc4",
+      "bytes": 107217
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00012_e61299f2.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00012_e61299f2.tsv",
+      "sha256": "c41c7c64c1e87d09683f6897e7e73c6011d934a49f216afed11729b14cd873e9",
+      "bytes": 116119
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00013_bb0bd4b5.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00013_bb0bd4b5.tsv",
+      "sha256": "ed4db7076b09c8ce05cf5504c5e25c127c4ff88e8d54dfe1490cfbe984d98269",
+      "bytes": 150426
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00014_0cfcb662.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00014_0cfcb662.tsv",
+      "sha256": "8d04e940d05c25fb38b55f020c8056512c0a6a3d213a0b5a9f8d70c727adeb7b",
+      "bytes": 148986
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00015_38770ed7.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00015_38770ed7.tsv",
+      "sha256": "37bb1bef7b7f13ad135bb74eda2f926b18e88f2ba48e40e56e415878046e75ac",
+      "bytes": 113943
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00016_f3ab5fd7.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00016_f3ab5fd7.tsv",
+      "sha256": "560fa94b8daa9a0c5b3399a10f13e790f173608293de5f60a1edc11f9beb20b5",
+      "bytes": 101796
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00017_0f2d6726.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00017_0f2d6726.tsv",
+      "sha256": "7eb671f70cf0766000d5f232d92beee7de3c79ab8d6db00f3c9ee62778d45391",
+      "bytes": 101763
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00018_f20e19e0.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00018_f20e19e0.tsv",
+      "sha256": "6656fda0662cab39c1a7bd2c0b3295924270102cfc4e63e62391a1ac5d82aab3",
+      "bytes": 116996
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00019_e497f8ff.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00019_e497f8ff.tsv",
+      "sha256": "fc2493c5e90fcde1de450d663d54496f92a406d34000292fb63239dbba10de5e",
+      "bytes": 178426
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00020_f1e49b75.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00020_f1e49b75.tsv",
+      "sha256": "445c20a567500b2a5ba7187566d83536c7724a873cac42b8f84b133e86852f26",
+      "bytes": 162969
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00021_eee1ee2c.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00021_eee1ee2c.tsv",
+      "sha256": "1113dab2e38b833927964aedc36f80566cc01393b0acb8cf605c70110c093e09",
+      "bytes": 99365
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00022_ea178073.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00022_ea178073.tsv",
+      "sha256": "23fdb9d4dcdb70b7137af98a900a2c6ac23f1758a1b6658194ea1c231cb826c3",
+      "bytes": 100090
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00023_db42b68c.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00023_db42b68c.tsv",
+      "sha256": "15045e1e81c8b52fc2f02583093cf6a52af364b2c106124bf688621ccd5fb61d",
+      "bytes": 108584
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00024_bb52dde1.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00024_bb52dde1.tsv",
+      "sha256": "191f20499003dc88e580b7716ba4ea8822af4f1283161bfbb918c73877305521",
+      "bytes": 123924
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00025_5a82035b.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00025_5a82035b.tsv",
+      "sha256": "124e98a319ff3be28e3347a2323842f47e04af9a6c5223ed94f455fa6bab0f77",
+      "bytes": 163215
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00026_01fd5abb.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00026_01fd5abb.tsv",
+      "sha256": "709882e32f347e4f0c9969d558c49ea8d0a078566628c757f2e380ccb468303c",
+      "bytes": 146945
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00027_0e4b986a.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00027_0e4b986a.tsv",
+      "sha256": "0716a27acbcd71a1bbd73a09d5943066f32514999c7299fd755e0583ba786d4a",
+      "bytes": 87770
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00028_0515cff4.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00028_0515cff4.tsv",
+      "sha256": "54032abe2384dea893b255c0be8b303782ce19e34bb4c9504f7926faf1df93bd",
+      "bytes": 101414
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00029_761c0c83.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00029_761c0c83.tsv",
+      "sha256": "57a3e1a6f9e2f131a86e46f3fb92d3d44d4f490bdf3ac6a0844719600dabd5f8",
+      "bytes": 106641
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00030_7da164b0.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00030_7da164b0.tsv",
+      "sha256": "65ea7834f6e42dace496fca7a0396404144ab0ad99c86dedfc17966bb60a13d9",
+      "bytes": 73997
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00031_df47718b.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00031_df47718b.tsv",
+      "sha256": "a1d7b2ce41d11b8eea319cecb36278463941618f7812aaeee85e19ceba5fc585",
+      "bytes": 46812
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00032_53b7d710.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00032_53b7d710.tsv",
+      "sha256": "ccd477482f64d152f3243af582fb15e0ea9628d9dc8b81c26fde689fe87d4883",
+      "bytes": 44872
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00033_a004355f.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00033_a004355f.tsv",
+      "sha256": "fd5f0c66506880eb5c54ed49c2bdfe365aeb7a5a7699dffe2a9a9dc469d1d041",
+      "bytes": 47307
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00034_9fbe0b18.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00034_9fbe0b18.tsv",
+      "sha256": "4635c281fb2f1db457684b9223642c81656356cb4080e490a0796b3ee8b8f116",
+      "bytes": 33827
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00035_2b4fa21f.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00035_2b4fa21f.tsv",
+      "sha256": "25f77ddb6586485a1c4ec345e4586040387f9a054fbc68fb0701a042706f1f22",
+      "bytes": 30529
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00036_62801420.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00036_62801420.tsv",
+      "sha256": "f238fa5f25f287d82197fef3c60c0af29acef88628e158ed2a8ed3cc78bd39de",
+      "bytes": 31247
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00037_70979d8d.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00037_70979d8d.tsv",
+      "sha256": "5b635e5cfa8f37765ab7ea9b5e00f10963c5c24292797f17ca9a5c5465286fc6",
+      "bytes": 31075
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00038_15ede5e1.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00038_15ede5e1.tsv",
+      "sha256": "b3ed9eb731bf0fbd630b4200ce5cca7d176bd040275dd72c1a40e936b3ca7951",
+      "bytes": 26027
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00039_ba41cb43.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00039_ba41cb43.tsv",
+      "sha256": "e521c24ca66572051f245c918ce1e7f7558d4d204a6ddf4d5621d01df669523c",
+      "bytes": 20853
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00040_30744a55.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00040_30744a55.tsv",
+      "sha256": "7a4c5b92da79c91d3f6c0b074097e3279844d33750d6e54d826473dbb4ca8014",
+      "bytes": 21437
+    },
+    {
+      "local_path": "data/raw/full_20261030/tsv/page_00041_f859889b.tsv",
+      "repository_path": "protein-go-research/data/raw/full_20261030/tsv/page_00041_f859889b.tsv",
+      "sha256": "df1e27f03c50e4cd3a928e47bae1d5bb79075c4a81a3b962efe655c9f3c76f7e",
+      "bytes": 11380
+    }
+  ],
+  "repository_url": "https://github.com/arnixs115/protein-go-research",
+  "browse_url": "https://github.com/arnixs115/protein-go-research/tree/7d7cc33078aa8b684534f03ef339b46789f01a14/protein-go-research/data/raw"
+}

@@ -4,3 +4,13 @@
 protein-go-research/.venv/
 __pycache__/
 *.pyc
+**/.venv/
+**/runtime_cache/
+/protein-go-research-submission/
+/*-extracted-check/
+/protein-go-research-submission.zip
+/protein-go-research-submission.zip.sha256
+/protein-go-research-submission-zip-validation.json
+/protein-go-research-submission-8mb/data/raw/full_20261030/json/
+/protein-go-research-submission-8mb/data/raw/full_20261030/tsv/
+*.download

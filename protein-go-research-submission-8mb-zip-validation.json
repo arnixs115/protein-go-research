@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-11-02T03:48:26.558874+00:00",
+  "zip_file": "protein-go-research-submission-8mb.zip",
+  "zip_bytes": 4351994,
+  "zip_sha256": "3b26d848f1492dcc55abc9ea2e3973aad350e087fb19b2cea912bd6765c89567",
+  "archive_file_count": 125,
+  "zip_crc_passed": true,
+  "exact_file_inventory_passed": true,
+  "upload_limit_bytes": 8000000,
+  "under_upload_limit": true,
+  "raw_files_excluded_from_zip": 83,
+  "raw_bytes_external": 177808088,
+  "public_raw_repository": "arnixs115/protein-go-research",
+  "public_raw_commit": "7d7cc33078aa8b684534f03ef339b46789f01a14",
+  "anonymous_raw_download_verified": true,
+  "extracted_offline_tests_passed": true,
+  "extracted_offline_test_count": 11,
+  "all_extracted_file_sha256_match": true,
+  "extracted_checksum_verifier_stdout": "PASS: SHA256 and file inventory verified for 124 files",
+  "paper_file": "paper/human_protein_length_go_paper.pdf",
+  "paper_sha256": "36c4a11f3747823357ba152ae5f65f09234eadab54796ff0d8e9a2c6a7f2dffd",
+  "paper_pages": 16,
+  "required_components_present": [
+    "paper/human_protein_length_go_paper.pdf",
+    "README.md",
+    "requirements.txt",
+    "AI_and_My_Decisions.md",
+    "data/raw/full_20261030/manifest.json",
+    "data/processed/full_20261030/protein_go_dataset.csv",
+    "scripts/03_prepare_dataset.py",
+    "scripts/04_analyze_statistics.py"
+  ],
+  "environment_and_runtime_caches_excluded": true,
+  "reproducibility_report_passed": true,
+  "extracted_folder": "C:\\Users\\Administrator\\Documents\\ChatGPT\\paper\\protein-go-research-submission-8mb-extracted-check\\protein-go-research-submission-8mb",
+  "submission_system_uploaded": false,
+  "notes": [
+    "Archive packaging verified; no submission-system upload or Git commit/push performed."
+  ]
+}

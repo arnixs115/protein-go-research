@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "file": "paper/human_protein_length_go_paper.pdf",
+  "sha256": "36c4a11f3747823357ba152ae5f65f09234eadab54796ff0d8e9a2c6a7f2dffd",
+  "bytes": 676375,
+  "pages": 16,
+  "encrypted": false,
+  "all_pages_rendered": true,
+  "visual_review": "All 16 pages reviewed as contact sheet; result tables on PDF pages 11-12 additionally inspected at 100 dpi.",
+  "quantitative_markers": {
+    "main_rho": "0.2705",
+    "main_ci_low": "0.2570",
+    "main_ci_high": "0.2840",
+    "bp_rho": "0.2280",
+    "mf_rho": "0.2592",
+    "cc_rho": "0.2464",
+    "nozero_rho": "0.2331",
+    "single_gene_rho": "0.2013",
+    "baseline_n": "20,431",
+    "nozero_n": "19,375",
+    "single_gene_n": "19,031",
+    "seed": "20261030",
+    "bootstrap_replicates": "2,000"
+  },
+  "quantitative_checks_passed": {
+    "main_rho": true,
+    "main_ci_low": true,
+    "main_ci_high": true,
+    "bp_rho": true,
+    "mf_rho": true,
+    "cc_rho": true,
+    "nozero_rho": true,
+    "single_gene_rho": true,
+    "baseline_n": true,
+    "nozero_n": true,
+    "single_gene_n": true,
+    "seed": true,
+    "bootstrap_replicates": true
+  },
+  "pdf_modified": false,
+  "scope_limitations": [
+    "Not a full reference DOI verification or confirmation of researcher final proofreading."
+  ]
+}

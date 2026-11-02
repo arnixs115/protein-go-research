@@ -1,0 +1,36 @@
+{
+  "accession_blank": 0,
+  "accession_duplicates": 0,
+  "go_category_sum_mismatch": 0,
+  "go_zero_entries": 1056,
+  "missing_counts": {
+    "go_bp_count": 0,
+    "go_cc_count": 0,
+    "go_mf_count": 0,
+    "go_total_count": 0,
+    "sequence_length": 0
+  },
+  "negative_counts": {
+    "go_bp_count": 0,
+    "go_cc_count": 0,
+    "go_mf_count": 0,
+    "go_total_count": 0,
+    "sequence_length": 0
+  },
+  "noninteger_counts": {
+    "go_bp_count": 0,
+    "go_cc_count": 0,
+    "go_mf_count": 0,
+    "go_total_count": 0,
+    "sequence_length": 0
+  },
+  "numeric_dtypes": {
+    "go_bp_count": "int64",
+    "go_cc_count": "int64",
+    "go_mf_count": "int64",
+    "go_total_count": "int64",
+    "sequence_length": "int64"
+  },
+  "passed": true,
+  "row_count": 20431
+}

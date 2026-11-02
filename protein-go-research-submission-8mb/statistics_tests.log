@@ -1,0 +1,13 @@
+mkdir -p failed for path C:\Users\Administrator\AppData\Local\matplotlib: [WinError 5] �׼����� �źεǾ����ϴ�: 'C:\\Users\\Administrator\\AppData\\Local\\matplotlib'
+Matplotlib created a temporary cache directory at C:\Users\ADMINI~1\AppData\Local\Temp\matplotlib-sx7qaxm5 because there was an issue with the default path (C:\Users\Administrator\AppData\Local\matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+test: bootstrap 16/32
+test: bootstrap 32/32
+test_repeat: bootstrap 16/32
+test_repeat: bootstrap 32/32
+test_bootstrap_reranks_tied_values_in_each_paired_sample (test_statistics.StatisticsTests.test_bootstrap_reranks_tied_values_in_each_paired_sample) ... ok
+test_log_p_matches_independent_beta_identity_beyond_float_range (test_statistics.StatisticsTests.test_log_p_matches_independent_beta_identity_beyond_float_range) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.026s
+
+OK

@@ -1,0 +1,32 @@
+test_bad_id_length_and_union_are_not_silent (test_pipeline.PipelineTests.test_bad_id_length_and_union_are_not_silent) ... ok
+test_core_field_mismatch_and_multiple_gene_ids (test_pipeline.PipelineTests.test_core_field_mismatch_and_multiple_gene_ids) ... ok
+test_duplicate_and_bad_category_are_visible (test_pipeline.PipelineTests.test_duplicate_and_bad_category_are_visible) ... ok
+test_gzip_and_url_guard (test_pipeline.PipelineTests.test_gzip_and_url_guard) ... ok
+test_multiple_primary_gene_names_use_semicolon (test_pipeline.PipelineTests.test_multiple_primary_gene_names_use_semicolon) ... ok
+test_original_sample_cross_validation_and_zero (test_pipeline.PipelineTests.test_original_sample_cross_validation_and_zero) ... ok
+json page=1 entries=5/10 reused=False
+test_resume_reuses_verified_page_and_snapshot_drift_fails (test_pipeline.PipelineTests.test_resume_reuses_verified_page_and_snapshot_drift_fails) ... ConnectionError: simulated interruption
+RUN_DIR=C:\Users\Administrator\AppData\Local\Temp\tmpep_rzafp
+json page=1 entries=5/10 reused=True
+json page=2 entries=10/10 reused=False
+tsv page=1 entries=5/10 reused=False
+tsv page=2 entries=10/10 reused=False
+COMPLETE: C:\Users\Administrator\AppData\Local\Temp\tmpep_rzafp; entries=10
+RUN_DIR=C:\Users\Administrator\AppData\Local\Temp\tmpep_rzafp
+ValueError: Snapshot changed: expected {'release': '2026_03', 'release_date': '02-September-2026', 'total_results': 10}, got {'release': '2099_01', 'release_date': '02-September-2026', 'total_results': 10}
+RUN_DIR=C:\Users\Administrator\AppData\Local\Temp\tmpep_rzafp
+ValueError: Snapshot changed: expected {'release': '2026_03', 'release_date': '02-September-2026', 'total_results': 10}, got {'release': '2026_03', 'release_date': '02-September-2026', 'total_results': 11}
+RUN_DIR=C:\Users\Administrator\AppData\Local\Temp\tmpep_rzafp
+ok
+Retry 1/3 after 1s: 429 Client Error: None for url: https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue&format=json&size=5&includeIsoform=false
+Retry 2/3 after 2s: 503 Server Error: None for url: https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue&format=json&size=5&includeIsoform=false
+Retry 1/3 after 1s: 503 Server Error: None for url: https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue&format=json&size=5&includeIsoform=false
+Retry 2/3 after 2s: 503 Server Error: None for url: https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue&format=json&size=5&includeIsoform=false
+Retry 3/3 after 4s: 503 Server Error: None for url: https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue&format=json&size=5&includeIsoform=false
+test_retry_bounded_and_nonretryable (test_pipeline.PipelineTests.test_retry_bounded_and_nonretryable) ... ok
+test_tsv_cleaved_description_is_not_part_of_canonical_name (test_pipeline.PipelineTests.test_tsv_cleaved_description_is_not_part_of_canonical_name) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.291s
+
+OK

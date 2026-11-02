@@ -1,0 +1,79 @@
+{
+  "baseline_rows_excluded": 0,
+  "bootstrap_replicates_per_analysis": 2000,
+  "bootstrap_total_rho_estimates": 12000,
+  "ci_assumptions": "Ordinary row bootstrap treats accessions as exchangeable independent observations. Full database population is fixed; intervals and p-values are model-based exploratory inference, not sampling uncertainty of this complete release.",
+  "ci_method": "paired rows with replacement, sample size n, re-rank raw values in every sample using average ties, percentile [0.025,0.975], linear quantile interpolation",
+  "figure_sha256": {},
+  "finished_at_utc": "2026-10-30T07:59:27.858054+00:00",
+  "input_file": "C:\\Users\\Administrator\\Documents\\ChatGPT\\paper\\protein-go-research\\data\\processed\\full_20261030\\protein_go_dataset.csv",
+  "input_sha256": "a1b62f7bcb6524f53fb93cef4efc48744e96ed7a3bc33c71318473f0913bf567",
+  "input_validation": {
+    "accession_blank": 0,
+    "accession_duplicates": 0,
+    "go_category_sum_mismatch": 0,
+    "go_zero_entries": 1056,
+    "missing_counts": {
+      "go_bp_count": 0,
+      "go_cc_count": 0,
+      "go_mf_count": 0,
+      "go_total_count": 0,
+      "sequence_length": 0
+    },
+    "negative_counts": {
+      "go_bp_count": 0,
+      "go_cc_count": 0,
+      "go_mf_count": 0,
+      "go_total_count": 0,
+      "sequence_length": 0
+    },
+    "noninteger_counts": {
+      "go_bp_count": 0,
+      "go_cc_count": 0,
+      "go_mf_count": 0,
+      "go_total_count": 0,
+      "sequence_length": 0
+    },
+    "numeric_dtypes": {
+      "go_bp_count": "int64",
+      "go_cc_count": "int64",
+      "go_mf_count": "int64",
+      "go_total_count": "int64",
+      "sequence_length": "int64"
+    },
+    "passed": true,
+    "row_count": 20431
+  },
+  "multiplicity": "Holm for the 3 auxiliary BP/MF/CC tests only; primary and sensitivity tests reported separately",
+  "output_sha256": {
+    "bootstrap_correlations.csv": "e56e389f9426d25ce5ba1d063021bcd531063fc7e6b4028ab1aa8e4d0484d0ca",
+    "correlation_results.csv": "25b3fc32a147384fdd5430d74cabfe11789203e5a300c655259cc1b6b5232158",
+    "descriptive_statistics.csv": "f2ca65b2589b2adb1c34672a68da04b5533360f29de2985ae89cf3d3bd2e6aed",
+    "sensitivity_results.csv": "17483e7ced01fb90388101a2d897803519e0658dcb9564bcd0f7b35a7c023b49",
+    "sensitivity_selection.csv": "eb35dc506aef6fd9918266602a49142b8e9e9b33475024a0d1fbf78db32c0aaa"
+  },
+  "p_value_method": "Two-sided asymptotic t, df=n-2, scipy.stats.spearmanr; scaled log-tail integration for scientific text/log10 p and underflow preservation",
+  "rng": "NumPy default_rng / PCG64; SeedSequence.spawn(3)",
+  "script_sha256": "418df9997e8aa8d68c41c1e6e30574e3bd61d655a415b3fd07f0344b8d5f250d",
+  "seed": 20261030,
+  "selection": {
+    "baseline_n": 20431,
+    "exclude_zero_go_n": 1056,
+    "gene_missing_excluded_n": 1277,
+    "gene_multiple_excluded_n": 99,
+    "gene_rule": "Only exactly one unique Gene ID; accession ascending first per Gene ID; deterministic reduction, not biological representative selection",
+    "gene_sensitivity_final_n": 19031,
+    "nonzero_go_final_n": 19375,
+    "single_gene_duplicate_accessions_excluded_n": 24,
+    "single_gene_eligible_n": 19055
+  },
+  "started_at_utc": "2026-10-30T07:58:54.052487+00:00",
+  "status": "complete",
+  "versions": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "python": "3.12.14",
+    "scipy": "1.18.1"
+  }
+}
